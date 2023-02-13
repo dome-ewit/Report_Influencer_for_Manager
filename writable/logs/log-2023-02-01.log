@@ -1,0 +1,1933 @@
+CRITICAL - 2023-02-01 01:00:46 --> Undefined array key "getGroupBy_weekly"
+in APPPATH\Libraries\check_dup.php on line 69.
+ 1 APPPATH\Libraries\check_dup.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "getGroupBy_weekly"', 'APPPATH\\Libraries\\check_dup.php', 69)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:07:26 --> Call to undefined method App\Models\database63_model::check_value_weel
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\insert_update_model.php(100): CodeIgniter\Model->__call('check_value_weel', [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:07:58 --> Call to undefined method App\Models\database63_model::check_value_weel
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\insert_update_model.php(100): CodeIgniter\Model->__call('check_value_weel', [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:09:17 --> Call to undefined method App\Models\database63_model::check_value_overall
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\insert_update_model.php(100): CodeIgniter\Model->__call('check_value_overall', [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 01:09:47 --> mysqli_sql_exception: Table 'influencer.overall' doesn't exist in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\r\n     ...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\r\n     ...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\r\n     ...')
+#3 C:\xampp1\htdocs\intern__\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT *\r\n     ...')
+#4 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(45): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(100): App\Models\database63_model->check_overall('twitter')
+#6 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 01:09:47 --> Table 'influencer.overall' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 5 APPPATH\Models\database63_model.php(45): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(100): App\Models\database63_model->check_overall('twitter')
+ 7 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 01:10:09 --> mysqli_sql_exception: Table 'influencer.overall' doesn't exist in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\r\n     ...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\r\n     ...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\r\n     ...')
+#3 C:\xampp1\htdocs\intern__\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT *\r\n     ...')
+#4 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(45): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(100): App\Models\database63_model->check_overall('twitter')
+#6 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 01:10:09 --> Table 'influencer.overall' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 5 APPPATH\Models\database63_model.php(45): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(100): App\Models\database63_model->check_overall('twitter')
+ 7 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 01:10:21 --> mysqli_sql_exception: Table 'influencer.overall' doesn't exist in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\r\n     ...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\r\n     ...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\r\n     ...')
+#3 C:\xampp1\htdocs\intern__\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT *\r\n     ...')
+#4 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(45): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(100): App\Models\database63_model->check_overall('twitter')
+#6 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 01:10:21 --> Table 'influencer.overall' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT *
+        FROM overall
+        WHERE network = \'twitter\'')
+ 5 APPPATH\Models\database63_model.php(45): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(100): App\Models\database63_model->check_overall('twitter')
+ 7 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 01:11:32 --> mysqli_sql_exception: Unknown column 'unique_post' in 'field list' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ov...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ov...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ov...')
+#3 C:\xampp1\htdocs\intern__\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ov...', Array, false)
+#4 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(110): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+#6 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-01 01:11:32 --> Unknown column 'unique_post' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `over_all` (`network`, `total_post`, `unique_post`) VALUES (\'twitter\', 1592, 1592)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `over_all` (`network`, `total_post`, `unique_post`) VALUES (\'twitter\', 1592, 1592)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `over_all` (`network`, `total_post`, `unique_post`) VALUES (\'twitter\', 1592, 1592)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `over_all` (`network`, `total_post`, `unique_post`) VALUES (:network:, :total_post:, :unique_post:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(110): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:13:14 --> Undefined array key "unique_post"
+in APPPATH\Libraries\check_dup.php on line 143.
+ 1 APPPATH\Libraries\check_dup.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Libraries\\check_dup.php', 143)
+ 2 APPPATH\Libraries\check_dup.php(66): App\Libraries\check_dup->getGroupBy_overall([...])
+ 3 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 01:16:44 --> mysqli_sql_exception: Table 'influencer.process_lastid' doesn't exist in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,last_...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,last_...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,last_...')
+#3 C:\xampp1\htdocs\intern__\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,last_...')
+#4 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(15): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(28): App\Models\database63_model->stat_id()
+#6 C:\xampp1\htdocs\intern__\app\Libraries\check_dup.php(11): App\Models\database63_model->query63()
+#7 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 01:16:44 --> Table 'influencer.process_lastid' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,last_id,last_running
+        FROM process_lastid
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,last_id,last_running
+        FROM process_lastid
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,last_id,last_running
+        FROM process_lastid
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,last_id,last_running
+        FROM process_lastid
+        ')
+ 5 APPPATH\Models\database63_model.php(15): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\database63_model.php(28): App\Models\database63_model->stat_id()
+ 7 APPPATH\Libraries\check_dup.php(11): App\Models\database63_model->query63()
+ 8 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 9 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 01:17:15 --> mysqli_sql_exception: Table 'influencer.stat_rnuunig_log' doesn't exist in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,last_...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,last_...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,last_...')
+#3 C:\xampp1\htdocs\intern__\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,last_...')
+#4 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(15): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(28): App\Models\database63_model->stat_id()
+#6 C:\xampp1\htdocs\intern__\app\Libraries\check_dup.php(11): App\Models\database63_model->query63()
+#7 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 01:17:15 --> Table 'influencer.stat_rnuunig_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,last_id,last_running
+        FROM stat_rnuunig_log
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,last_id,last_running
+        FROM stat_rnuunig_log
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,last_id,last_running
+        FROM stat_rnuunig_log
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,last_id,last_running
+        FROM stat_rnuunig_log
+        ')
+ 5 APPPATH\Models\database63_model.php(15): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\database63_model.php(28): App\Models\database63_model->stat_id()
+ 7 APPPATH\Libraries\check_dup.php(11): App\Models\database63_model->query63()
+ 8 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 9 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:17:37 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:18:34 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:18:58 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:19:32 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:20:02 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:32:07 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:33:27 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:34:02 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:34:34 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:36:33 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:37:03 --> Undefined array key "unique_post"
+in APPPATH\Models\insert_update_model.php on line 102.
+ 1 APPPATH\Models\insert_update_model.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unique_post"', 'APPPATH\\Models\\insert_update_model.php', 102)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_overall()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:40:30 --> Call to undefined method App\Models\running_log::stat_id
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\database63_model.php(32): CodeIgniter\Model->__call('stat_id', [])
+ 2 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 3 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:47:02 --> Cannot use object of type App\Models\database63_model as array
+in APPPATH\Libraries\running_id.php on line 15.
+ 1 APPPATH\Models\database63_model.php(32): App\Libraries\running_id->running_log('0')
+ 2 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 3 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:50:42 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 23633920 bytes)
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 489.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 01:51:05 --> Undefined array key "id"
+in APPPATH\Models\database63_model.php on line 49.
+ 1 APPPATH\Models\database63_model.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Models\\database63_model.php', 49)
+ 2 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 3 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 01:51:33 --> Undefined array key "id"
+in APPPATH\Models\database63_model.php on line 49.
+ 1 APPPATH\Models\database63_model.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Models\\database63_model.php', 49)
+ 2 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 3 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:05:58 --> Call to undefined method App\Models\database63_model::update_last_id
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\running_id.php(37): CodeIgniter\Model->__call('update_last_id', [...])
+ 2 APPPATH\Models\database63_model.php(55): App\Libraries\running_id->running_log([...])
+ 3 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 4 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 5 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 02:08:21 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE post_uni...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE post_uni...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE post_uni...')
+#3 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(58): CodeIgniter\Database\BaseConnection->query('UPDATE post_uni...')
+#4 C:\xampp1\htdocs\intern__\app\Libraries\running_id.php(37): App\Models\insert_update_model->update_last_id('3417219')
+#5 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(55): App\Libraries\running_id->running_log(Array)
+#6 C:\xampp1\htdocs\intern__\app\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+#7 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 02:08:21 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE post_unique 
+                                                         SET last_id=\'3417219\', 
+                                                         last_running = CURRENT_TIMESTAMP
+                                                         WHERE id = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE post_unique 
+                                                         SET last_id=\'3417219\', 
+                                                         last_running = CURRENT_TIMESTAMP
+                                                         WHERE id = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE post_unique 
+                                                         SET last_id=\'3417219\', 
+                                                         last_running = CURRENT_TIMESTAMP
+                                                         WHERE id = 1')
+ 4 APPPATH\Models\insert_update_model.php(58): CodeIgniter\Database\BaseConnection->query('UPDATE post_unique 
+                                                         SET last_id=\'3417219\', 
+                                                         last_running = CURRENT_TIMESTAMP
+                                                         WHERE id = 1')
+ 5 APPPATH\Libraries\running_id.php(37): App\Models\insert_update_model->update_last_id('3417219')
+ 6 APPPATH\Models\database63_model.php(55): App\Libraries\running_id->running_log([...])
+ 7 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 8 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 9 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 02:08:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE post_uni...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE post_uni...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE post_uni...')
+#3 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(58): CodeIgniter\Database\BaseConnection->query('UPDATE post_uni...')
+#4 C:\xampp1\htdocs\intern__\app\Libraries\running_id.php(37): App\Models\insert_update_model->update_last_id('3417219')
+#5 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(55): App\Libraries\running_id->running_log(Array)
+#6 C:\xampp1\htdocs\intern__\app\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+#7 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 02:08:45 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE post_unique 
+                                                         SET last_id=\'3417219\', 
+                                                         last_running = CURRENT_TIMESTAMP
+                                                         WHERE id = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE post_unique 
+                                                         SET last_id=\'3417219\', 
+                                                         last_running = CURRENT_TIMESTAMP
+                                                         WHERE id = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE post_unique 
+                                                         SET last_id=\'3417219\', 
+                                                         last_running = CURRENT_TIMESTAMP
+                                                         WHERE id = \'1\'')
+ 4 APPPATH\Models\insert_update_model.php(58): CodeIgniter\Database\BaseConnection->query('UPDATE post_unique 
+                                                         SET last_id=\'3417219\', 
+                                                         last_running = CURRENT_TIMESTAMP
+                                                         WHERE id = \'1\'')
+ 5 APPPATH\Libraries\running_id.php(37): App\Models\insert_update_model->update_last_id('3417219')
+ 6 APPPATH\Models\database63_model.php(55): App\Libraries\running_id->running_log([...])
+ 7 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 8 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 9 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:13:29 --> Undefined array key "getGroupBy_monthly"
+in APPPATH\Models\insert_update_model.php on line 70.
+ 1 APPPATH\Models\insert_update_model.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "getGroupBy_monthly"', 'APPPATH\\Models\\insert_update_model.php', 70)
+ 2 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:21:08 --> Array to string conversion
+in APPPATH\Models\database63_model.php on line 42.
+ 1 APPPATH\Models\database63_model.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\database63_model.php', 42)
+ 2 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 3 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:25:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Libraries\running_id.php(24): CodeIgniter\Model->__call('end_id', [...])
+ 4 APPPATH\Models\database63_model.php(55): App\Libraries\running_id->running_log([...])
+ 5 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 6 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 7 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:31:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Libraries\running_id.php(15): CodeIgniter\Model->__call('query63', [])
+ 4 APPPATH\Models\database63_model.php(55): App\Libraries\running_id->running_log([...])
+ 5 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 6 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 7 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:32:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Libraries\running_id.php(15): CodeIgniter\Model->__call('query63', [])
+ 4 APPPATH\Models\database63_model.php(55): App\Libraries\running_id->running_log([...])
+ 5 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 6 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 7 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:33:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Libraries\running_id.php(15): CodeIgniter\Model->__call('query63', [])
+ 4 APPPATH\Models\database63_model.php(55): App\Libraries\running_id->running_log([...])
+ 5 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 6 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 7 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:34:07 --> Undefined array key "rawdata"
+in APPPATH\Libraries\merge_id.php on line 19.
+ 1 APPPATH\Libraries\merge_id.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\merge_id.php', 19)
+ 2 APPPATH\Libraries\merge_id.php(44): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(20): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:34:45 --> Undefined array key "rawdata"
+in APPPATH\Libraries\merge_id.php on line 19.
+ 1 APPPATH\Libraries\merge_id.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\merge_id.php', 19)
+ 2 APPPATH\Libraries\merge_id.php(44): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(20): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:35:15 --> Undefined array key "rawdata"
+in APPPATH\Libraries\merge_id.php on line 19.
+ 1 APPPATH\Libraries\merge_id.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\merge_id.php', 19)
+ 2 APPPATH\Libraries\merge_id.php(44): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(20): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 02:51:36 --> Undefined array key 0
+in APPPATH\Models\database63_model.php on line 22.
+ 1 APPPATH\Models\database63_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Models\\database63_model.php', 22)
+ 2 APPPATH\Models\database63_model.php(31): App\Models\database63_model->stat_id()
+ 3 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 4 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 5 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 03:05:37 --> Undefined array key "last_id"
+in APPPATH\Libraries\running_id.php on line 32.
+ 1 APPPATH\Libraries\running_id.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "last_id"', 'APPPATH\\Libraries\\running_id.php', 32)
+ 2 APPPATH\Models\database63_model.php(55): App\Libraries\running_id->running_log([...])
+ 3 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 4 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 5 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 03:13:36 --> Undefined array key 0
+in APPPATH\Models\database63_model.php on line 22.
+ 1 APPPATH\Models\database63_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Models\\database63_model.php', 22)
+ 2 APPPATH\Models\database63_model.php(31): App\Models\database63_model->stat_id()
+ 3 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 4 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 5 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 03:14:56 --> Cannot use object of type App\Models\database63_model as array
+in APPPATH\Libraries\running_id.php on line 13.
+ 1 APPPATH\Models\insert_update_model.php(56): App\Libraries\running_id->running_log()
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->update_last_id()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 03:16:08 --> Cannot use object of type App\Models\database63_model as array
+in APPPATH\Libraries\running_id.php on line 13.
+ 1 APPPATH\Models\insert_update_model.php(56): App\Libraries\running_id->running_log()
+ 2 APPPATH\Controllers\insert_controller.php(19): App\Models\insert_update_model->update_last_id()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 03:27:58 --> Undefined array key "account"
+in APPPATH\Libraries\overall.php on line 34.
+ 1 APPPATH\Libraries\overall.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account"', 'APPPATH\\Libraries\\overall.php', 34)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 03:28:59 --> Undefined array key "account"
+in APPPATH\Libraries\overall.php on line 34.
+ 1 APPPATH\Libraries\overall.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account"', 'APPPATH\\Libraries\\overall.php', 34)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 03:32:38 --> mysqli_sql_exception: Unknown column 'total_post_uique' in 'field list' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,netwo...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,netwo...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,netwo...')
+#3 C:\xampp1\htdocs\intern__\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,netwo...')
+#4 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\intern__\app\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+#6 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+#7 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(18): App\Models\insert_update_model->insert_weekly()
+#8 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-01 03:32:38 --> Unknown column 'total_post_uique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,network,account,follower,total_post,total_post_uique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,network,account,follower,total_post,total_post_uique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,network,account,follower,total_post,total_post_uique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,network,account,follower,total_post,total_post_uique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 7 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 8 APPPATH\Controllers\insert_controller.php(18): App\Models\insert_update_model->insert_weekly()
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 03:35:35 --> Undefined array key "rawdata"
+in APPPATH\Libraries\overall.php on line 43.
+ 1 APPPATH\Libraries\overall.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\overall.php', 43)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 03:36:01 --> Undefined array key "rawdata"
+in APPPATH\Libraries\overall.php on line 43.
+ 1 APPPATH\Libraries\overall.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\overall.php', 43)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:17:31 --> CodeIgniter\Model::insert(): Argument #2 ($returnID) must be of type bool, array given, called in C:\xampp1\htdocs\intern__\app\Libraries\overall.php on line 161
+in SYSTEMPATH\Model.php on line 677.
+ 1 APPPATH\Libraries\overall.php(161): CodeIgniter\Model->insert([...], [...])
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:19:33 --> CodeIgniter\Model::insert(): Argument #2 ($returnID) must be of type bool, array given, called in C:\xampp1\htdocs\intern__\app\Libraries\overall.php on line 161
+in SYSTEMPATH\Model.php on line 677.
+ 1 APPPATH\Libraries\overall.php(161): CodeIgniter\Model->insert([...], [...])
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 04:19:51 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ov...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ov...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ov...')
+#3 C:\xampp1\htdocs\intern__\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ov...', Array, false)
+#4 C:\xampp1\htdocs\intern__\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\intern__\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\intern__\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\intern__\app\Libraries\overall.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 04:19:51 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `over_all` (`network`) VALUES ((0,0,0,0,0,0))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `over_all` (`network`) VALUES ((0,0,0,0,0,0))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `over_all` (`network`) VALUES ((0,0,0,0,0,0))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `over_all` (`network`) VALUES (:network:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Libraries\overall.php(161): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 04:20:13 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ov...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ov...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ov...')
+#3 C:\xampp1\htdocs\intern__\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ov...', Array, false)
+#4 C:\xampp1\htdocs\intern__\system\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\intern__\system\BaseModel.php(750): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\intern__\system\Model.php(695): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp1\htdocs\intern__\app\Libraries\overall.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 04:20:13 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `over_all` (`network`) VALUES ((0,0,0,0,0,0))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `over_all` (`network`) VALUES ((0,0,0,0,0,0))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `over_all` (`network`) VALUES ((0,0,0,0,0,0))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `over_all` (`network`) VALUES (:network:)', [...], false)
+ 5 SYSTEMPATH\Model.php(303): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Libraries\overall.php(161): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:21:57 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:28 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:30 --> Undefined array key "instagram"
+in APPPATH\Libraries\overall.php on line 83.
+ 1 APPPATH\Libraries\overall.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instagram"', 'APPPATH\\Libraries\\overall.php', 83)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:33 --> Undefined array key "instagram"
+in APPPATH\Libraries\overall.php on line 83.
+ 1 APPPATH\Libraries\overall.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instagram"', 'APPPATH\\Libraries\\overall.php', 83)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:34 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:34 --> Undefined variable $new_network
+in APPPATH\Libraries\merge_id.php on line 69.
+ 1 APPPATH\Libraries\merge_id.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_network', 'APPPATH\\Libraries\\merge_id.php', 69)
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\merge_id->unique_id_post()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:35 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:36 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:36 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:37 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:38 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:56 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:57 --> Undefined array key "twitter"
+in APPPATH\Libraries\overall.php on line 91.
+ 1 APPPATH\Libraries\overall.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "twitter"', 'APPPATH\\Libraries\\overall.php', 91)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:58 --> Undefined array key "instagram"
+in APPPATH\Libraries\overall.php on line 83.
+ 1 APPPATH\Libraries\overall.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instagram"', 'APPPATH\\Libraries\\overall.php', 83)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:59 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:28:59 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:00 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:01 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:41 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:42 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:42 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:42 --> Undefined array key "instagram"
+in APPPATH\Libraries\overall.php on line 83.
+ 1 APPPATH\Libraries\overall.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instagram"', 'APPPATH\\Libraries\\overall.php', 83)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:43 --> Undefined array key "instagram"
+in APPPATH\Libraries\overall.php on line 83.
+ 1 APPPATH\Libraries\overall.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instagram"', 'APPPATH\\Libraries\\overall.php', 83)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:44 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:45 --> Undefined array key "twitter"
+in APPPATH\Libraries\overall.php on line 91.
+ 1 APPPATH\Libraries\overall.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "twitter"', 'APPPATH\\Libraries\\overall.php', 91)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:46 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:46 --> Undefined array key "tiktok"
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiktok"', 'APPPATH\\Libraries\\overall.php', 99)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:29:47 --> Undefined array key "twitter"
+in APPPATH\Libraries\overall.php on line 91.
+ 1 APPPATH\Libraries\overall.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "twitter"', 'APPPATH\\Libraries\\overall.php', 91)
+ 2 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 04:58:15 --> Undefined array key 0
+in APPPATH\Models\database63_model.php on line 22.
+ 1 APPPATH\Models\database63_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Models\\database63_model.php', 22)
+ 2 APPPATH\Models\database63_model.php(31): App\Models\database63_model->stat_id()
+ 3 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 4 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 5 APPPATH\Controllers\insert_controller.php(18): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 04:59:17 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,netwo...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,netwo...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,netwo...')
+#3 C:\xampp1\htdocs\intern__\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,netwo...')
+#4 C:\xampp1\htdocs\intern__\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\intern__\app\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+#6 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+#7 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(18): App\Models\insert_update_model->insert_weekly()
+#8 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-01 04:59:17 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Libraries\check_dup.php(13): App\Models\database63_model->query63()
+ 7 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 8 APPPATH\Controllers\insert_controller.php(18): App\Models\insert_update_model->insert_weekly()
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 04:59:47 --> mysqli_sql_exception: Unknown column 'over_all.id' in 'where clause' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `over_al...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `over_al...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `over_al...')
+#3 C:\xampp1\htdocs\intern__\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `over_al...', Array, false)
+#4 C:\xampp1\htdocs\intern__\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp1\htdocs\intern__\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp1\htdocs\intern__\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp1\htdocs\intern__\app\Libraries\overall.php(129): CodeIgniter\Model->update(Array, Array)
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 04:59:47 --> Unknown column 'over_all.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `over_all` SET `account` = :account:, `total_post` = :total_post:, `total_post_unique` = :total_post_unique:, `duplicate` = :duplicate:, `follower` = :follower:
+WHERE `over_all`.`id` IN :over_all.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(887): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Libraries\overall.php(129): CodeIgniter\Model->update([...], [...])
+ 9 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 05:00:46 --> mysqli_sql_exception: Unknown column 'over_all.id' in 'where clause' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `over_al...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `over_al...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `over_al...')
+#3 C:\xampp1\htdocs\intern__\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `over_al...', Array, false)
+#4 C:\xampp1\htdocs\intern__\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp1\htdocs\intern__\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp1\htdocs\intern__\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp1\htdocs\intern__\app\Libraries\overall.php(129): CodeIgniter\Model->update(Array, Array)
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 05:00:46 --> Unknown column 'over_all.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `over_all` SET `account` = :account:, `total_post` = :total_post:, `total_post_unique` = :total_post_unique:, `duplicate` = :duplicate:, `follower` = :follower:
+WHERE `over_all`.`id` IN :over_all.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(887): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Libraries\overall.php(129): CodeIgniter\Model->update([...], [...])
+ 9 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 05:02:30 --> mysqli_sql_exception: Unknown column 'over_all.id' in 'where clause' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `over_al...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `over_al...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `over_al...')
+#3 C:\xampp1\htdocs\intern__\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `over_al...', Array, false)
+#4 C:\xampp1\htdocs\intern__\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp1\htdocs\intern__\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp1\htdocs\intern__\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp1\htdocs\intern__\app\Libraries\overall.php(129): CodeIgniter\Model->update(Array, Array)
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 05:02:30 --> Unknown column 'over_all.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (\'tiktok\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `over_all` SET `account` = :account:, `total_post` = :total_post:, `total_post_unique` = :total_post_unique:, `duplicate` = :duplicate:, `follower` = :follower:
+WHERE `over_all`.`id` IN :over_all.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(887): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Libraries\overall.php(129): CodeIgniter\Model->update([...], [...])
+ 9 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 05:07:21 --> mysqli_sql_exception: Unknown column 'over_all.id' in 'where clause' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `over_al...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `over_al...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `over_al...')
+#3 C:\xampp1\htdocs\intern__\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `over_al...', Array, false)
+#4 C:\xampp1\htdocs\intern__\system\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp1\htdocs\intern__\system\BaseModel.php(887): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp1\htdocs\intern__\system\Model.php(721): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp1\htdocs\intern__\app\Libraries\overall.php(144): CodeIgniter\Model->update(Array, Array)
+#8 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+#9 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#10 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#11 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-01 05:07:21 --> Unknown column 'over_all.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (4)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (4)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `over_all` SET `account` = 1, `total_post` = 30, `total_post_unique` = 30, `duplicate` = 0, `follower` = 1
+WHERE `over_all`.`id` IN (4)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `over_all` SET `account` = :account:, `total_post` = :total_post:, `total_post_unique` = :total_post_unique:, `duplicate` = :duplicate:, `follower` = :follower:
+WHERE `over_all`.`id` IN :over_all.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(362): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(887): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Libraries\overall.php(144): CodeIgniter\Model->update([...], [...])
+ 9 APPPATH\Controllers\insert_controller.php(24): App\Libraries\overall->over_all()
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 05:43:39 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 05:51:19 --> Undefined array key "rawdata"
+in APPPATH\Libraries\check_dup.php on line 15.
+ 1 APPPATH\Libraries\check_dup.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\check_dup.php', 15)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(19): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 05:52:23 --> Undefined array key "rawdata"
+in APPPATH\Libraries\check_dup.php on line 15.
+ 1 APPPATH\Libraries\check_dup.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\check_dup.php', 15)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(19): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 05:52:54 --> Undefined array key "rawdata"
+in APPPATH\Libraries\check_dup.php on line 15.
+ 1 APPPATH\Libraries\check_dup.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\check_dup.php', 15)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(19): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 05:53:23 --> Undefined array key "rawdata"
+in APPPATH\Libraries\check_dup.php on line 15.
+ 1 APPPATH\Libraries\check_dup.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rawdata"', 'APPPATH\\Libraries\\check_dup.php', 15)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(19): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 10:11:30 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern__\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO ove...', 0)
+#1 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ove...')
+#2 C:\xampp1\htdocs\intern__\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ove...')
+#3 C:\xampp1\htdocs\intern__\app\Models\insert_update_model.php(107): CodeIgniter\Database\BaseConnection->query('INSERT INTO ove...')
+#4 C:\xampp1\htdocs\intern__\app\Controllers\insert_controller.php(19): App\Models\insert_update_model->insert_overall()
+#5 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp1\htdocs\intern__\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\intern__\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-01 10:11:30 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO over_all (id,network)
+        VALUE (1,\'facebook\'),(2,\'instagram\'),(3,\'twitter\'),(4,\'tiktok\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO over_all (id,network)
+        VALUE (1,\'facebook\'),(2,\'instagram\'),(3,\'twitter\'),(4,\'tiktok\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO over_all (id,network)
+        VALUE (1,\'facebook\'),(2,\'instagram\'),(3,\'twitter\'),(4,\'tiktok\')')
+ 4 APPPATH\Models\insert_update_model.php(107): CodeIgniter\Database\BaseConnection->query('INSERT INTO over_all (id,network)
+        VALUE (1,\'facebook\'),(2,\'instagram\'),(3,\'twitter\'),(4,\'tiktok\')')
+ 5 APPPATH\Controllers\insert_controller.php(19): App\Models\insert_update_model->insert_overall()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 11:12:08 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Libraries\overall.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-02-01 22:49:02 --> mysqli_sql_exception: Table 'influencer.stat_running_log' doesn't exist in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT last_id\r...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT last_id\r...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT last_id\r...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT last_id\r...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(15): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\database63_model.php(31): App\Models\database63_model->stat_id()
+#6 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#7 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#10 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-01 22:49:02 --> Table 'influencer.stat_running_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT last_id
+        FROM stat_running_log
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT last_id
+        FROM stat_running_log
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT last_id
+        FROM stat_running_log
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT last_id
+        FROM stat_running_log
+        ')
+ 5 APPPATH\Models\database63_model.php(15): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\database63_model.php(31): App\Models\database63_model->stat_id()
+ 7 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 8 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 22:49:33 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 22:49:33 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 22:49:58 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 22:49:58 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 22:50:08 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 22:50:08 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 22:50:58 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 22:50:58 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 22:58:31 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 22:58:31 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 22:58:50 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 22:58:50 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 22:59:37 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 22:59:37 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 22:59:53 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 22:59:53 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 23:00:23 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 23:00:23 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 23:00:42 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 23:00:42 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 23:02:35 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 23:02:35 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 23:03:00 --> mysqli_sql_exception: Unknown column 'total_post_unique' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-01 23:03:00 --> Unknown column 'total_post_unique' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,account,follower,total_post,total_post_unique
+        FROM over_all
+        ')
+ 5 APPPATH\Models\database63_model.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\insert_update_model.php(108): App\Models\database63_model->query63()
+ 7 APPPATH\Controllers\insert_controller.php(22): App\Models\insert_update_model->insert_overall()
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:04:27 --> Division by zero
+in APPPATH\Libraries\overall.php on line 88.
+ 1 APPPATH\Libraries\overall.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Libraries\\overall.php', 88, [...])
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:06:17 --> Undefined index: tiktok
+in APPPATH\Libraries\overall.php on line 99.
+ 1 APPPATH\Libraries\overall.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tiktok', 'APPPATH\\Libraries\\overall.php', 99, [...])
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:12:14 --> Undefined index: twitter
+in APPPATH\Libraries\overall.php on line 91.
+ 1 APPPATH\Libraries\overall.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: twitter', 'APPPATH\\Libraries\\overall.php', 91, [...])
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\overall->over_all()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:27:31 --> syntax error, unexpected '$test_sum_total' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Libraries\check_dup.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\check_dup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\check_dup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\check_dup')
+ 4 APPPATH\Models\insert_update_model.php(17): spl_autoload_call('App\\Libraries\\check_dup')
+ 5 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:27:37 --> syntax error, unexpected '$test_sum_total' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Libraries\check_dup.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\check_dup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\check_dup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\check_dup')
+ 4 APPPATH\Models\insert_update_model.php(17): spl_autoload_call('App\\Libraries\\check_dup')
+ 5 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:28:11 --> syntax error, unexpected '$test_sum_total' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Libraries\check_dup.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\check_dup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\check_dup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\check_dup')
+ 4 APPPATH\Models\insert_update_model.php(17): spl_autoload_call('App\\Libraries\\check_dup')
+ 5 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:28:12 --> syntax error, unexpected '$test_sum_total' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Libraries\check_dup.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\check_dup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\check_dup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\check_dup')
+ 4 APPPATH\Models\insert_update_model.php(17): spl_autoload_call('App\\Libraries\\check_dup')
+ 5 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:28:13 --> syntax error, unexpected '$test_sum_total' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Libraries\check_dup.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\check_dup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\check_dup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\check_dup')
+ 4 APPPATH\Models\insert_update_model.php(17): spl_autoload_call('App\\Libraries\\check_dup')
+ 5 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:30:31 --> syntax error, unexpected '$test_sum_total' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Libraries\check_dup.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\check_dup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\check_dup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\check_dup')
+ 4 APPPATH\Models\insert_update_model.php(17): spl_autoload_call('App\\Libraries\\check_dup')
+ 5 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:30:44 --> syntax error, unexpected '$test_sum_total' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Libraries\check_dup.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\check_dup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\check_dup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\check_dup')
+ 4 APPPATH\Models\insert_update_model.php(17): spl_autoload_call('App\\Libraries\\check_dup')
+ 5 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:31:23 --> array_push() expects parameter 1 to be array, int given
+in APPPATH\Libraries\check_dup.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() expects parameter 1 to be array, int given', 'APPPATH\\Libraries\\check_dup.php', 48, [...])
+ 2 APPPATH\Libraries\check_dup.php(48): array_push(30, 30)
+ 3 APPPATH\Models\insert_update_model.php(18): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:31:40 --> Undefined index: unique_post
+in APPPATH\Libraries\check_dup.php on line 91.
+ 1 APPPATH\Libraries\check_dup.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unique_post', 'APPPATH\\Libraries\\check_dup.php', 91, [...])
+ 2 APPPATH\Libraries\check_dup.php(69): App\Libraries\check_dup->getGroupBy_Weekly([...])
+ 3 APPPATH\Models\insert_update_model.php(18): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:31:46 --> Undefined index: unique_post
+in APPPATH\Libraries\check_dup.php on line 91.
+ 1 APPPATH\Libraries\check_dup.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unique_post', 'APPPATH\\Libraries\\check_dup.php', 91, [...])
+ 2 APPPATH\Libraries\check_dup.php(69): App\Libraries\check_dup->getGroupBy_Weekly([...])
+ 3 APPPATH\Models\insert_update_model.php(18): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:32:05 --> Undefined index: unique_post
+in APPPATH\Libraries\check_dup.php on line 121.
+ 1 APPPATH\Libraries\check_dup.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unique_post', 'APPPATH\\Libraries\\check_dup.php', 121, [...])
+ 2 APPPATH\Libraries\check_dup.php(70): App\Libraries\check_dup->getGroupBy_monthly([...])
+ 3 APPPATH\Models\insert_update_model.php(18): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 23:50:11 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(94): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(24): App\Models\insert_update_model->insert_monthly()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-01 23:50:11 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `monthly` (`month`, `year`, `network`, `account_influencer`, `total_post`, `duplicate`) VALUES (\'12\', \'2022\', \'twitter\', 109, (\'1596529022565240833\',\'1595083532111872002\',\'1594695721868881921\',\'1585480868562612230\',\'1570053152099143680\',\'1568836233761296384\',\'1568798396236058625\',\'1568461668715462656\',\'1567926360299171841\',\'1565378940793159680\',\'1564674223351959552\',\'1563888038182555649\',\'1562848077513637888\',\'1562847688898772992\',\'1562844299037130753\',\'1561061269305978880\',\'1558428592048324610\',\'1558088967639027713\',\'1551202245298962433\',\'1548627531762262016\'), 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `monthly` (`month`, `year`, `network`, `account_influencer`, `total_post`, `duplicate`) VALUES (\'12\', \'2022\', \'twitter\', 109, (\'1596529022565240833\',\'1595083532111872002\',\'1594695721868881921\',\'1585480868562612230\',\'1570053152099143680\',\'1568836233761296384\',\'1568798396236058625\',\'1568461668715462656\',\'1567926360299171841\',\'1565378940793159680\',\'1564674223351959552\',\'1563888038182555649\',\'1562848077513637888\',\'1562847688898772992\',\'1562844299037130753\',\'1561061269305978880\',\'1558428592048324610\',\'1558088967639027713\',\'1551202245298962433\',\'1548627531762262016\'), 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `monthly` (`month`, `year`, `network`, `account_influencer`, `total_post`, `duplicate`) VALUES (\'12\', \'2022\', \'twitter\', 109, (\'1596529022565240833\',\'1595083532111872002\',\'1594695721868881921\',\'1585480868562612230\',\'1570053152099143680\',\'1568836233761296384\',\'1568798396236058625\',\'1568461668715462656\',\'1567926360299171841\',\'1565378940793159680\',\'1564674223351959552\',\'1563888038182555649\',\'1562848077513637888\',\'1562847688898772992\',\'1562844299037130753\',\'1561061269305978880\',\'1558428592048324610\',\'1558088967639027713\',\'1551202245298962433\',\'1548627531762262016\'), 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `monthly` (`month`, `year`, `network`, `account_influencer`, `total_post`, `duplicate`) VALUES (:month:, :year:, :network:, :account_influencer:, :total_post:, :duplicate:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(94): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(24): App\Models\insert_update_model->insert_monthly()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:50:44 --> Undefined index: unique_post
+in APPPATH\Models\insert_update_model.php on line 25.
+ 1 APPPATH\Models\insert_update_model.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unique_post', 'APPPATH\\Models\\insert_update_model.php', 25, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:52:21 --> Undefined index: unique_post
+in APPPATH\Models\insert_update_model.php on line 25.
+ 1 APPPATH\Models\insert_update_model.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unique_post', 'APPPATH\\Models\\insert_update_model.php', 25, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:54:17 --> Undefined index: unique_post
+in APPPATH\Models\insert_update_model.php on line 25.
+ 1 APPPATH\Models\insert_update_model.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unique_post', 'APPPATH\\Models\\insert_update_model.php', 25, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 23:55:45 --> Undefined index: unique_post
+in APPPATH\Models\insert_update_model.php on line 25.
+ 1 APPPATH\Models\insert_update_model.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: unique_post', 'APPPATH\\Models\\insert_update_model.php', 25, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-01 23:57:17 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(92): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(24): App\Models\insert_update_model->insert_monthly()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-01 23:57:17 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `monthly` (`month`, `year`, `network`, `account_influencer`, `total_post`, `duplicate`) VALUES (\'12\', \'2022\', \'twitter\', 109, (\'1596529022565240833\',\'1595083532111872002\',\'1594695721868881921\',\'1585480868562612230\',\'1570053152099143680\',\'1568836233761296384\',\'1568798396236058625\',\'1568461668715462656\',\'1567926360299171841\',\'1565378940793159680\',\'1564674223351959552\',\'1563888038182555649\',\'1562848077513637888\',\'1562847688898772992\',\'1562844299037130753\',\'1561061269305978880\',\'1558428592048324610\',\'1558088967639027713\',\'1551202245298962433\',\'1548627531762262016\'), 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `monthly` (`month`, `year`, `network`, `account_influencer`, `total_post`, `duplicate`) VALUES (\'12\', \'2022\', \'twitter\', 109, (\'1596529022565240833\',\'1595083532111872002\',\'1594695721868881921\',\'1585480868562612230\',\'1570053152099143680\',\'1568836233761296384\',\'1568798396236058625\',\'1568461668715462656\',\'1567926360299171841\',\'1565378940793159680\',\'1564674223351959552\',\'1563888038182555649\',\'1562848077513637888\',\'1562847688898772992\',\'1562844299037130753\',\'1561061269305978880\',\'1558428592048324610\',\'1558088967639027713\',\'1551202245298962433\',\'1548627531762262016\'), 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `monthly` (`month`, `year`, `network`, `account_influencer`, `total_post`, `duplicate`) VALUES (\'12\', \'2022\', \'twitter\', 109, (\'1596529022565240833\',\'1595083532111872002\',\'1594695721868881921\',\'1585480868562612230\',\'1570053152099143680\',\'1568836233761296384\',\'1568798396236058625\',\'1568461668715462656\',\'1567926360299171841\',\'1565378940793159680\',\'1564674223351959552\',\'1563888038182555649\',\'1562848077513637888\',\'1562847688898772992\',\'1562844299037130753\',\'1561061269305978880\',\'1558428592048324610\',\'1558088967639027713\',\'1551202245298962433\',\'1548627531762262016\'), 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `monthly` (`month`, `year`, `network`, `account_influencer`, `total_post`, `duplicate`) VALUES (:month:, :year:, :network:, :account_influencer:, :total_post:, :duplicate:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(92): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(24): App\Models\insert_update_model->insert_monthly()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

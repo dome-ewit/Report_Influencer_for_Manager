@@ -1,0 +1,274 @@
+CRITICAL - 2023-01-20 00:00:08 --> Undefined variable: test_results
+in APPPATH\Controllers\insert_controller.php on line 27.
+ 1 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_results', 'APPPATH\\Controllers\\insert_controller.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:00:14 --> Undefined variable: test_results
+in APPPATH\Controllers\insert_controller.php on line 27.
+ 1 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_results', 'APPPATH\\Controllers\\insert_controller.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:00:26 --> Undefined index: influencer_id
+in APPPATH\Controllers\insert_controller.php on line 27.
+ 1 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Controllers\\insert_controller.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:00:48 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329, [...])
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `check_dup` (`influencer_id`, `network`, `id_post_unique`, `id_post_count`) VALUES (:influencer_id:, :network:, :id_post_unique:, :id_post_count:)', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(87): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 7 SYSTEMPATH\Database\BaseConnection.php(622): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 8 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (`influencer_id`, `network`, `id_post_unique`, `id_post_count`) VALUES (:influencer_id:, :network:, :id_post_unique:, :id_post_count:)', [...], false)
+ 9 APPPATH\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:01:40 --> Function name must be a string
+in APPPATH\Controllers\insert_controller.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:01:59 --> Undefined index: influencer_id
+in APPPATH\Controllers\insert_controller.php on line 27.
+ 1 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Controllers\\insert_controller.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:02:34 --> Undefined index: influencer_id
+in APPPATH\Controllers\insert_controller.php on line 27.
+ 1 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Controllers\\insert_controller.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:02:53 --> Undefined index: influencer_id
+in APPPATH\Controllers\insert_controller.php on line 27.
+ 1 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Controllers\\insert_controller.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:03:26 --> Undefined variable: influencer_id
+in APPPATH\Controllers\insert_controller.php on line 27.
+ 1 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: influencer_id', 'APPPATH\\Controllers\\insert_controller.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:03:53 --> Undefined variable: data
+in APPPATH\Controllers\insert_controller.php on line 33.
+ 1 APPPATH\Controllers\insert_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\insert_controller.php', 33, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-20 00:04:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 00:04:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-20 00:47:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 00:47:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-20 00:48:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 00:48:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-20 00:49:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 00:49:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:00:05 --> array_column() expects parameter 1 to be array, null given
+in APPPATH\Libraries\unique_id.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() expects parameter 1 to be array, null given', 'APPPATH\\Libraries\\unique_id.php', 19, [...])
+ 2 APPPATH\Libraries\unique_id.php(19): array_column(null, 'id_post')
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:00:18 --> array_column() expects parameter 1 to be array, null given
+in APPPATH\Libraries\unique_id.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() expects parameter 1 to be array, null given', 'APPPATH\\Libraries\\unique_id.php', 19, [...])
+ 2 APPPATH\Libraries\unique_id.php(19): array_column(null, 'id_post')
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-20 03:43:11 --> mysqli_sql_exception: INSERT command denied to user 'intern'@'61.7.156.184' for table 'check_dup' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1778): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', NULL, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 03:43:11 --> INSERT command denied to user 'intern'@'61.7.156.184' for table 'check_dup'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (`create_date`, `id_post_count`, `id_post_unique`, `influencer_id`, `network`) VALUES (\'2022-01-12 03:33:10\',10,\'[\\"4374384526004942\\",\\"4188316564611740\\",\\"4128435853933145\\",\\"4070662296377168\\",\\"4017497198360345\\",\\"3953241558119243\\",\\"3952119041564828\\",\\"3946549822121750\\",\\"3943457462430986\\",\\"3910855415691191\\"]\',\'115057\',\'facebook\'), (\'2022-01-12 04:00:07\',10,\'[\\"6908863005851546\\",\\"6908327825905064\\",\\"6907793105958536\\",\\"6907564409314739\\",\\"6904613692943144\\",\\"6900228356715011\\",\\"6897477786990068\\",\\"6897400203664493\\",\\"6895964950474685\\",\\"6895199250551255\\"]\',\'136819\',\'facebook\'), (\'2022-01-12 04:26:38\',6,\'[\\"4684997738213335\\",\\"4679434048769704\\",\\"4679414442104998\\",\\"4679408068772302\\",\\"4679341028779006\\",\\"4658146500898459\\"]\',\'43637\',\'facebook\'), (\'2022-01-12 04:35:35\',10,\'[\\"1309278139531686\\",\\"1161400577652777\\",\\"1155947201531448\\",\\"1155539908238844\\",\\"1155413591584809\\",\\"1155409194918582\\",\\"1154850124974489\\",\\"1139269349865900\\",\\"1139227466536755\\",\\"1138595423266626\\"]\',\'309532\',\'facebook\'), (\'2022-01-12 04:42:44\',5,\'[\\"1275686869574488\\",\\"1275404406269401\\",\\"1274751283001380\\",\\"1274740953002413\\",\\"1274216906388151\\"]\',\'16548\',\'facebook\'), (\'2022-01-12 04:49:47\',10,\'[\\"4651374871578670\\",\\"4651372834912207\\",\\"4651311528251671\\",\\"4651008074948683\\",\\"4650681578314666\\",\\"4648478081868349\\",\\"4645507775498713\\",\\"4643729192343238\\",\\"4643525082363649\\",\\"4643068079076016\\"]\',\'19215\',\'facebook\'), (\'2022-01-12 04:51:52\',5,\'[\\"4923759180979556\\",\\"4908080159214125\\",\\"4896008680421273\\",\\"4879503795405095\\",\\"4814973705191438\\"]\',\'19859\',\'facebook\'), (\'2022-01-12 16:46:26\',8,\'[\\"470382834692881\\",\\"469815038082994\\",\\"462963575434807\\",\\"453558266375338\\",\\"452905966440568\\",\\"451696453228186\\",\\"449856200078878\\",\\"441843764213455\\"]\',\'26027\',\'facebook\'), (\'2022-01-12 16:49:35\',5,\'[\\"962974267651620\\",\\"962146384401075\\",\\"962120521070328\\",\\"961833557765691\\",\\"961376934478020\\"]\',\'27797\',\'facebook\'), (\'2022-01-12 16:53:01\',5,\'[\\"5133916243299492\\",\\"5127965727227877\\",\\"5125489227475527\\",\\"5125254457499004\\",\\"5124471060910677\\"]\',\'29695\',\'facebook\'), (\'2022-01-12 16:59:09\',6,\'[\\"2734399390198415\\",\\"2730108227294198\\",\\"2695466677425020\\",\\"2687581951546826\\",\\"2602097630095259\\",\\"2602009436770745\\"]\',\'30399\',\'facebook\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (`create_date`, `id_post_count`, `id_post_unique`, `influencer_id`, `network`) VALUES (\'2022-01-12 03:33:10\',10,\'[\\"4374384526004942\\",\\"4188316564611740\\",\\"4128435853933145\\",\\"4070662296377168\\",\\"4017497198360345\\",\\"3953241558119243\\",\\"3952119041564828\\",\\"3946549822121750\\",\\"3943457462430986\\",\\"3910855415691191\\"]\',\'115057\',\'facebook\'), (\'2022-01-12 04:00:07\',10,\'[\\"6908863005851546\\",\\"6908327825905064\\",\\"6907793105958536\\",\\"6907564409314739\\",\\"6904613692943144\\",\\"6900228356715011\\",\\"6897477786990068\\",\\"6897400203664493\\",\\"6895964950474685\\",\\"6895199250551255\\"]\',\'136819\',\'facebook\'), (\'2022-01-12 04:26:38\',6,\'[\\"4684997738213335\\",\\"4679434048769704\\",\\"4679414442104998\\",\\"4679408068772302\\",\\"4679341028779006\\",\\"4658146500898459\\"]\',\'43637\',\'facebook\'), (\'2022-01-12 04:35:35\',10,\'[\\"1309278139531686\\",\\"1161400577652777\\",\\"1155947201531448\\",\\"1155539908238844\\",\\"1155413591584809\\",\\"1155409194918582\\",\\"1154850124974489\\",\\"1139269349865900\\",\\"1139227466536755\\",\\"1138595423266626\\"]\',\'309532\',\'facebook\'), (\'2022-01-12 04:42:44\',5,\'[\\"1275686869574488\\",\\"1275404406269401\\",\\"1274751283001380\\",\\"1274740953002413\\",\\"1274216906388151\\"]\',\'16548\',\'facebook\'), (\'2022-01-12 04:49:47\',10,\'[\\"4651374871578670\\",\\"4651372834912207\\",\\"4651311528251671\\",\\"4651008074948683\\",\\"4650681578314666\\",\\"4648478081868349\\",\\"4645507775498713\\",\\"4643729192343238\\",\\"4643525082363649\\",\\"4643068079076016\\"]\',\'19215\',\'facebook\'), (\'2022-01-12 04:51:52\',5,\'[\\"4923759180979556\\",\\"4908080159214125\\",\\"4896008680421273\\",\\"4879503795405095\\",\\"4814973705191438\\"]\',\'19859\',\'facebook\'), (\'2022-01-12 16:46:26\',8,\'[\\"470382834692881\\",\\"469815038082994\\",\\"462963575434807\\",\\"453558266375338\\",\\"452905966440568\\",\\"451696453228186\\",\\"449856200078878\\",\\"441843764213455\\"]\',\'26027\',\'facebook\'), (\'2022-01-12 16:49:35\',5,\'[\\"962974267651620\\",\\"962146384401075\\",\\"962120521070328\\",\\"961833557765691\\",\\"961376934478020\\"]\',\'27797\',\'facebook\'), (\'2022-01-12 16:53:01\',5,\'[\\"5133916243299492\\",\\"5127965727227877\\",\\"5125489227475527\\",\\"5125254457499004\\",\\"5124471060910677\\"]\',\'29695\',\'facebook\'), (\'2022-01-12 16:59:09\',6,\'[\\"2734399390198415\\",\\"2730108227294198\\",\\"2695466677425020\\",\\"2687581951546826\\",\\"2602097630095259\\",\\"2602009436770745\\"]\',\'30399\',\'facebook\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (`create_date`, `id_post_count`, `id_post_unique`, `influencer_id`, `network`) VALUES (\'2022-01-12 03:33:10\',10,\'[\\"4374384526004942\\",\\"4188316564611740\\",\\"4128435853933145\\",\\"4070662296377168\\",\\"4017497198360345\\",\\"3953241558119243\\",\\"3952119041564828\\",\\"3946549822121750\\",\\"3943457462430986\\",\\"3910855415691191\\"]\',\'115057\',\'facebook\'), (\'2022-01-12 04:00:07\',10,\'[\\"6908863005851546\\",\\"6908327825905064\\",\\"6907793105958536\\",\\"6907564409314739\\",\\"6904613692943144\\",\\"6900228356715011\\",\\"6897477786990068\\",\\"6897400203664493\\",\\"6895964950474685\\",\\"6895199250551255\\"]\',\'136819\',\'facebook\'), (\'2022-01-12 04:26:38\',6,\'[\\"4684997738213335\\",\\"4679434048769704\\",\\"4679414442104998\\",\\"4679408068772302\\",\\"4679341028779006\\",\\"4658146500898459\\"]\',\'43637\',\'facebook\'), (\'2022-01-12 04:35:35\',10,\'[\\"1309278139531686\\",\\"1161400577652777\\",\\"1155947201531448\\",\\"1155539908238844\\",\\"1155413591584809\\",\\"1155409194918582\\",\\"1154850124974489\\",\\"1139269349865900\\",\\"1139227466536755\\",\\"1138595423266626\\"]\',\'309532\',\'facebook\'), (\'2022-01-12 04:42:44\',5,\'[\\"1275686869574488\\",\\"1275404406269401\\",\\"1274751283001380\\",\\"1274740953002413\\",\\"1274216906388151\\"]\',\'16548\',\'facebook\'), (\'2022-01-12 04:49:47\',10,\'[\\"4651374871578670\\",\\"4651372834912207\\",\\"4651311528251671\\",\\"4651008074948683\\",\\"4650681578314666\\",\\"4648478081868349\\",\\"4645507775498713\\",\\"4643729192343238\\",\\"4643525082363649\\",\\"4643068079076016\\"]\',\'19215\',\'facebook\'), (\'2022-01-12 04:51:52\',5,\'[\\"4923759180979556\\",\\"4908080159214125\\",\\"4896008680421273\\",\\"4879503795405095\\",\\"4814973705191438\\"]\',\'19859\',\'facebook\'), (\'2022-01-12 16:46:26\',8,\'[\\"470382834692881\\",\\"469815038082994\\",\\"462963575434807\\",\\"453558266375338\\",\\"452905966440568\\",\\"451696453228186\\",\\"449856200078878\\",\\"441843764213455\\"]\',\'26027\',\'facebook\'), (\'2022-01-12 16:49:35\',5,\'[\\"962974267651620\\",\\"962146384401075\\",\\"962120521070328\\",\\"961833557765691\\",\\"961376934478020\\"]\',\'27797\',\'facebook\'), (\'2022-01-12 16:53:01\',5,\'[\\"5133916243299492\\",\\"5127965727227877\\",\\"5125489227475527\\",\\"5125254457499004\\",\\"5124471060910677\\"]\',\'29695\',\'facebook\'), (\'2022-01-12 16:59:09\',6,\'[\\"2734399390198415\\",\\"2730108227294198\\",\\"2695466677425020\\",\\"2687581951546826\\",\\"2602097630095259\\",\\"2602009436770745\\"]\',\'30399\',\'facebook\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1778): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (`create_date`, `id_post_count`, `id_post_unique`, `influencer_id`, `network`) VALUES (\'2022-01-12 03:33:10\',10,\'[\\"4374384526004942\\",\\"4188316564611740\\",\\"4128435853933145\\",\\"4070662296377168\\",\\"4017497198360345\\",\\"3953241558119243\\",\\"3952119041564828\\",\\"3946549822121750\\",\\"3943457462430986\\",\\"3910855415691191\\"]\',\'115057\',\'facebook\'), (\'2022-01-12 04:00:07\',10,\'[\\"6908863005851546\\",\\"6908327825905064\\",\\"6907793105958536\\",\\"6907564409314739\\",\\"6904613692943144\\",\\"6900228356715011\\",\\"6897477786990068\\",\\"6897400203664493\\",\\"6895964950474685\\",\\"6895199250551255\\"]\',\'136819\',\'facebook\'), (\'2022-01-12 04:26:38\',6,\'[\\"4684997738213335\\",\\"4679434048769704\\",\\"4679414442104998\\",\\"4679408068772302\\",\\"4679341028779006\\",\\"4658146500898459\\"]\',\'43637\',\'facebook\'), (\'2022-01-12 04:35:35\',10,\'[\\"1309278139531686\\",\\"1161400577652777\\",\\"1155947201531448\\",\\"1155539908238844\\",\\"1155413591584809\\",\\"1155409194918582\\",\\"1154850124974489\\",\\"1139269349865900\\",\\"1139227466536755\\",\\"1138595423266626\\"]\',\'309532\',\'facebook\'), (\'2022-01-12 04:42:44\',5,\'[\\"1275686869574488\\",\\"1275404406269401\\",\\"1274751283001380\\",\\"1274740953002413\\",\\"1274216906388151\\"]\',\'16548\',\'facebook\'), (\'2022-01-12 04:49:47\',10,\'[\\"4651374871578670\\",\\"4651372834912207\\",\\"4651311528251671\\",\\"4651008074948683\\",\\"4650681578314666\\",\\"4648478081868349\\",\\"4645507775498713\\",\\"4643729192343238\\",\\"4643525082363649\\",\\"4643068079076016\\"]\',\'19215\',\'facebook\'), (\'2022-01-12 04:51:52\',5,\'[\\"4923759180979556\\",\\"4908080159214125\\",\\"4896008680421273\\",\\"4879503795405095\\",\\"4814973705191438\\"]\',\'19859\',\'facebook\'), (\'2022-01-12 16:46:26\',8,\'[\\"470382834692881\\",\\"469815038082994\\",\\"462963575434807\\",\\"453558266375338\\",\\"452905966440568\\",\\"451696453228186\\",\\"449856200078878\\",\\"441843764213455\\"]\',\'26027\',\'facebook\'), (\'2022-01-12 16:49:35\',5,\'[\\"962974267651620\\",\\"962146384401075\\",\\"962120521070328\\",\\"961833557765691\\",\\"961376934478020\\"]\',\'27797\',\'facebook\'), (\'2022-01-12 16:53:01\',5,\'[\\"5133916243299492\\",\\"5127965727227877\\",\\"5125489227475527\\",\\"5125254457499004\\",\\"5124471060910677\\"]\',\'29695\',\'facebook\'), (\'2022-01-12 16:59:09\',6,\'[\\"2734399390198415\\",\\"2730108227294198\\",\\"2695466677425020\\",\\"2687581951546826\\",\\"2602097630095259\\",\\"2602009436770745\\"]\',\'30399\',\'facebook\')', null, false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-20 03:43:44 --> mysqli_sql_exception: INSERT command denied to user 'intern'@'61.7.156.184' for table 'check_dup' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1778): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', NULL, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 03:43:44 --> INSERT command denied to user 'intern'@'61.7.156.184' for table 'check_dup'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (`create_date`, `id_post_count`, `id_post_unique`, `influencer_id`, `network`) VALUES (\'2022-01-12 03:33:10\',10,\'[\\"4374384526004942\\",\\"4188316564611740\\",\\"4128435853933145\\",\\"4070662296377168\\",\\"4017497198360345\\",\\"3953241558119243\\",\\"3952119041564828\\",\\"3946549822121750\\",\\"3943457462430986\\",\\"3910855415691191\\"]\',\'115057\',\'facebook\'), (\'2022-01-12 04:00:07\',10,\'[\\"6908863005851546\\",\\"6908327825905064\\",\\"6907793105958536\\",\\"6907564409314739\\",\\"6904613692943144\\",\\"6900228356715011\\",\\"6897477786990068\\",\\"6897400203664493\\",\\"6895964950474685\\",\\"6895199250551255\\"]\',\'136819\',\'facebook\'), (\'2022-01-12 04:26:38\',6,\'[\\"4684997738213335\\",\\"4679434048769704\\",\\"4679414442104998\\",\\"4679408068772302\\",\\"4679341028779006\\",\\"4658146500898459\\"]\',\'43637\',\'facebook\'), (\'2022-01-12 04:35:35\',10,\'[\\"1309278139531686\\",\\"1161400577652777\\",\\"1155947201531448\\",\\"1155539908238844\\",\\"1155413591584809\\",\\"1155409194918582\\",\\"1154850124974489\\",\\"1139269349865900\\",\\"1139227466536755\\",\\"1138595423266626\\"]\',\'309532\',\'facebook\'), (\'2022-01-12 04:42:44\',5,\'[\\"1275686869574488\\",\\"1275404406269401\\",\\"1274751283001380\\",\\"1274740953002413\\",\\"1274216906388151\\"]\',\'16548\',\'facebook\'), (\'2022-01-12 04:49:47\',10,\'[\\"4651374871578670\\",\\"4651372834912207\\",\\"4651311528251671\\",\\"4651008074948683\\",\\"4650681578314666\\",\\"4648478081868349\\",\\"4645507775498713\\",\\"4643729192343238\\",\\"4643525082363649\\",\\"4643068079076016\\"]\',\'19215\',\'facebook\'), (\'2022-01-12 04:51:52\',5,\'[\\"4923759180979556\\",\\"4908080159214125\\",\\"4896008680421273\\",\\"4879503795405095\\",\\"4814973705191438\\"]\',\'19859\',\'facebook\'), (\'2022-01-12 16:46:26\',8,\'[\\"470382834692881\\",\\"469815038082994\\",\\"462963575434807\\",\\"453558266375338\\",\\"452905966440568\\",\\"451696453228186\\",\\"449856200078878\\",\\"441843764213455\\"]\',\'26027\',\'facebook\'), (\'2022-01-12 16:49:35\',5,\'[\\"962974267651620\\",\\"962146384401075\\",\\"962120521070328\\",\\"961833557765691\\",\\"961376934478020\\"]\',\'27797\',\'facebook\'), (\'2022-01-12 16:53:01\',5,\'[\\"5133916243299492\\",\\"5127965727227877\\",\\"5125489227475527\\",\\"5125254457499004\\",\\"5124471060910677\\"]\',\'29695\',\'facebook\'), (\'2022-01-12 16:59:09\',6,\'[\\"2734399390198415\\",\\"2730108227294198\\",\\"2695466677425020\\",\\"2687581951546826\\",\\"2602097630095259\\",\\"2602009436770745\\"]\',\'30399\',\'facebook\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (`create_date`, `id_post_count`, `id_post_unique`, `influencer_id`, `network`) VALUES (\'2022-01-12 03:33:10\',10,\'[\\"4374384526004942\\",\\"4188316564611740\\",\\"4128435853933145\\",\\"4070662296377168\\",\\"4017497198360345\\",\\"3953241558119243\\",\\"3952119041564828\\",\\"3946549822121750\\",\\"3943457462430986\\",\\"3910855415691191\\"]\',\'115057\',\'facebook\'), (\'2022-01-12 04:00:07\',10,\'[\\"6908863005851546\\",\\"6908327825905064\\",\\"6907793105958536\\",\\"6907564409314739\\",\\"6904613692943144\\",\\"6900228356715011\\",\\"6897477786990068\\",\\"6897400203664493\\",\\"6895964950474685\\",\\"6895199250551255\\"]\',\'136819\',\'facebook\'), (\'2022-01-12 04:26:38\',6,\'[\\"4684997738213335\\",\\"4679434048769704\\",\\"4679414442104998\\",\\"4679408068772302\\",\\"4679341028779006\\",\\"4658146500898459\\"]\',\'43637\',\'facebook\'), (\'2022-01-12 04:35:35\',10,\'[\\"1309278139531686\\",\\"1161400577652777\\",\\"1155947201531448\\",\\"1155539908238844\\",\\"1155413591584809\\",\\"1155409194918582\\",\\"1154850124974489\\",\\"1139269349865900\\",\\"1139227466536755\\",\\"1138595423266626\\"]\',\'309532\',\'facebook\'), (\'2022-01-12 04:42:44\',5,\'[\\"1275686869574488\\",\\"1275404406269401\\",\\"1274751283001380\\",\\"1274740953002413\\",\\"1274216906388151\\"]\',\'16548\',\'facebook\'), (\'2022-01-12 04:49:47\',10,\'[\\"4651374871578670\\",\\"4651372834912207\\",\\"4651311528251671\\",\\"4651008074948683\\",\\"4650681578314666\\",\\"4648478081868349\\",\\"4645507775498713\\",\\"4643729192343238\\",\\"4643525082363649\\",\\"4643068079076016\\"]\',\'19215\',\'facebook\'), (\'2022-01-12 04:51:52\',5,\'[\\"4923759180979556\\",\\"4908080159214125\\",\\"4896008680421273\\",\\"4879503795405095\\",\\"4814973705191438\\"]\',\'19859\',\'facebook\'), (\'2022-01-12 16:46:26\',8,\'[\\"470382834692881\\",\\"469815038082994\\",\\"462963575434807\\",\\"453558266375338\\",\\"452905966440568\\",\\"451696453228186\\",\\"449856200078878\\",\\"441843764213455\\"]\',\'26027\',\'facebook\'), (\'2022-01-12 16:49:35\',5,\'[\\"962974267651620\\",\\"962146384401075\\",\\"962120521070328\\",\\"961833557765691\\",\\"961376934478020\\"]\',\'27797\',\'facebook\'), (\'2022-01-12 16:53:01\',5,\'[\\"5133916243299492\\",\\"5127965727227877\\",\\"5125489227475527\\",\\"5125254457499004\\",\\"5124471060910677\\"]\',\'29695\',\'facebook\'), (\'2022-01-12 16:59:09\',6,\'[\\"2734399390198415\\",\\"2730108227294198\\",\\"2695466677425020\\",\\"2687581951546826\\",\\"2602097630095259\\",\\"2602009436770745\\"]\',\'30399\',\'facebook\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (`create_date`, `id_post_count`, `id_post_unique`, `influencer_id`, `network`) VALUES (\'2022-01-12 03:33:10\',10,\'[\\"4374384526004942\\",\\"4188316564611740\\",\\"4128435853933145\\",\\"4070662296377168\\",\\"4017497198360345\\",\\"3953241558119243\\",\\"3952119041564828\\",\\"3946549822121750\\",\\"3943457462430986\\",\\"3910855415691191\\"]\',\'115057\',\'facebook\'), (\'2022-01-12 04:00:07\',10,\'[\\"6908863005851546\\",\\"6908327825905064\\",\\"6907793105958536\\",\\"6907564409314739\\",\\"6904613692943144\\",\\"6900228356715011\\",\\"6897477786990068\\",\\"6897400203664493\\",\\"6895964950474685\\",\\"6895199250551255\\"]\',\'136819\',\'facebook\'), (\'2022-01-12 04:26:38\',6,\'[\\"4684997738213335\\",\\"4679434048769704\\",\\"4679414442104998\\",\\"4679408068772302\\",\\"4679341028779006\\",\\"4658146500898459\\"]\',\'43637\',\'facebook\'), (\'2022-01-12 04:35:35\',10,\'[\\"1309278139531686\\",\\"1161400577652777\\",\\"1155947201531448\\",\\"1155539908238844\\",\\"1155413591584809\\",\\"1155409194918582\\",\\"1154850124974489\\",\\"1139269349865900\\",\\"1139227466536755\\",\\"1138595423266626\\"]\',\'309532\',\'facebook\'), (\'2022-01-12 04:42:44\',5,\'[\\"1275686869574488\\",\\"1275404406269401\\",\\"1274751283001380\\",\\"1274740953002413\\",\\"1274216906388151\\"]\',\'16548\',\'facebook\'), (\'2022-01-12 04:49:47\',10,\'[\\"4651374871578670\\",\\"4651372834912207\\",\\"4651311528251671\\",\\"4651008074948683\\",\\"4650681578314666\\",\\"4648478081868349\\",\\"4645507775498713\\",\\"4643729192343238\\",\\"4643525082363649\\",\\"4643068079076016\\"]\',\'19215\',\'facebook\'), (\'2022-01-12 04:51:52\',5,\'[\\"4923759180979556\\",\\"4908080159214125\\",\\"4896008680421273\\",\\"4879503795405095\\",\\"4814973705191438\\"]\',\'19859\',\'facebook\'), (\'2022-01-12 16:46:26\',8,\'[\\"470382834692881\\",\\"469815038082994\\",\\"462963575434807\\",\\"453558266375338\\",\\"452905966440568\\",\\"451696453228186\\",\\"449856200078878\\",\\"441843764213455\\"]\',\'26027\',\'facebook\'), (\'2022-01-12 16:49:35\',5,\'[\\"962974267651620\\",\\"962146384401075\\",\\"962120521070328\\",\\"961833557765691\\",\\"961376934478020\\"]\',\'27797\',\'facebook\'), (\'2022-01-12 16:53:01\',5,\'[\\"5133916243299492\\",\\"5127965727227877\\",\\"5125489227475527\\",\\"5125254457499004\\",\\"5124471060910677\\"]\',\'29695\',\'facebook\'), (\'2022-01-12 16:59:09\',6,\'[\\"2734399390198415\\",\\"2730108227294198\\",\\"2695466677425020\\",\\"2687581951546826\\",\\"2602097630095259\\",\\"2602009436770745\\"]\',\'30399\',\'facebook\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1778): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (`create_date`, `id_post_count`, `id_post_unique`, `influencer_id`, `network`) VALUES (\'2022-01-12 03:33:10\',10,\'[\\"4374384526004942\\",\\"4188316564611740\\",\\"4128435853933145\\",\\"4070662296377168\\",\\"4017497198360345\\",\\"3953241558119243\\",\\"3952119041564828\\",\\"3946549822121750\\",\\"3943457462430986\\",\\"3910855415691191\\"]\',\'115057\',\'facebook\'), (\'2022-01-12 04:00:07\',10,\'[\\"6908863005851546\\",\\"6908327825905064\\",\\"6907793105958536\\",\\"6907564409314739\\",\\"6904613692943144\\",\\"6900228356715011\\",\\"6897477786990068\\",\\"6897400203664493\\",\\"6895964950474685\\",\\"6895199250551255\\"]\',\'136819\',\'facebook\'), (\'2022-01-12 04:26:38\',6,\'[\\"4684997738213335\\",\\"4679434048769704\\",\\"4679414442104998\\",\\"4679408068772302\\",\\"4679341028779006\\",\\"4658146500898459\\"]\',\'43637\',\'facebook\'), (\'2022-01-12 04:35:35\',10,\'[\\"1309278139531686\\",\\"1161400577652777\\",\\"1155947201531448\\",\\"1155539908238844\\",\\"1155413591584809\\",\\"1155409194918582\\",\\"1154850124974489\\",\\"1139269349865900\\",\\"1139227466536755\\",\\"1138595423266626\\"]\',\'309532\',\'facebook\'), (\'2022-01-12 04:42:44\',5,\'[\\"1275686869574488\\",\\"1275404406269401\\",\\"1274751283001380\\",\\"1274740953002413\\",\\"1274216906388151\\"]\',\'16548\',\'facebook\'), (\'2022-01-12 04:49:47\',10,\'[\\"4651374871578670\\",\\"4651372834912207\\",\\"4651311528251671\\",\\"4651008074948683\\",\\"4650681578314666\\",\\"4648478081868349\\",\\"4645507775498713\\",\\"4643729192343238\\",\\"4643525082363649\\",\\"4643068079076016\\"]\',\'19215\',\'facebook\'), (\'2022-01-12 04:51:52\',5,\'[\\"4923759180979556\\",\\"4908080159214125\\",\\"4896008680421273\\",\\"4879503795405095\\",\\"4814973705191438\\"]\',\'19859\',\'facebook\'), (\'2022-01-12 16:46:26\',8,\'[\\"470382834692881\\",\\"469815038082994\\",\\"462963575434807\\",\\"453558266375338\\",\\"452905966440568\\",\\"451696453228186\\",\\"449856200078878\\",\\"441843764213455\\"]\',\'26027\',\'facebook\'), (\'2022-01-12 16:49:35\',5,\'[\\"962974267651620\\",\\"962146384401075\\",\\"962120521070328\\",\\"961833557765691\\",\\"961376934478020\\"]\',\'27797\',\'facebook\'), (\'2022-01-12 16:53:01\',5,\'[\\"5133916243299492\\",\\"5127965727227877\\",\\"5125489227475527\\",\\"5125254457499004\\",\\"5124471060910677\\"]\',\'29695\',\'facebook\'), (\'2022-01-12 16:59:09\',6,\'[\\"2734399390198415\\",\\"2730108227294198\\",\\"2695466677425020\\",\\"2687581951546826\\",\\"2602097630095259\\",\\"2602009436770745\\"]\',\'30399\',\'facebook\')', null, false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:53:35 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-20 03:56:01 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-20 03:59:07 --> array_column() expects parameter 1 to be array, null given
+in APPPATH\Libraries\unique_id.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() expects parameter 1 to be array, null given', 'APPPATH\\Libraries\\unique_id.php', 19, [...])
+ 2 APPPATH\Libraries\unique_id.php(19): array_column(null, 'id_post')
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:59:18 --> array_column() expects parameter 1 to be array, null given
+in APPPATH\Libraries\unique_id.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() expects parameter 1 to be array, null given', 'APPPATH\\Libraries\\unique_id.php', 19, [...])
+ 2 APPPATH\Libraries\unique_id.php(19): array_column(null, 'id_post')
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:59:26 --> array_column() expects parameter 1 to be array, null given
+in APPPATH\Libraries\unique_id.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() expects parameter 1 to be array, null given', 'APPPATH\\Libraries\\unique_id.php', 19, [...])
+ 2 APPPATH\Libraries\unique_id.php(19): array_column(null, 'id_post')
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 05:13:45 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(154): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\insert_controller.php(16): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

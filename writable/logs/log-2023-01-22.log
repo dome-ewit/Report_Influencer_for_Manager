@@ -1,0 +1,573 @@
+CRITICAL - 2023-01-22 20:57:19 --> Illegal offset type
+in APPPATH\Libraries\unique_id.php on line 31.
+ 1 APPPATH\Libraries\unique_id.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Libraries\\unique_id.php', 31, [...])
+ 2 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 20:58:04 --> Illegal offset type
+in APPPATH\Libraries\unique_id.php on line 32.
+ 1 APPPATH\Libraries\unique_id.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Libraries\\unique_id.php', 32, [...])
+ 2 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 21:09:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM influencer_stat_post_recent
+        limit 0,1' at line 3 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(16): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 21:09:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM influencer_stat_post_recent
+        limit 0,1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 5 APPPATH\Models\database63_model.php(16): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 21:09:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM influencer_stat_post_recent
+        limit 0,1' at line 3 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(16): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 21:09:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM influencer_stat_post_recent
+        limit 0,1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 5 APPPATH\Models\database63_model.php(16): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 21:09:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM influencer_stat_post_recent
+        limit 0,1' at line 3 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(16): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 21:09:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM influencer_stat_post_recent
+        limit 0,1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date,
+        rawdata,
+        FROM influencer_stat_post_recent
+        limit 0,1')
+ 5 APPPATH\Models\database63_model.php(16): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:11:45 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-22 21:38:05 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 24, [...])
+ 2 APPPATH\Libraries\unique_id.php(24): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:39:36 --> Illegal offset type
+in APPPATH\Libraries\unique_id.php on line 30.
+ 1 APPPATH\Libraries\unique_id.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Libraries\\unique_id.php', 30, [...])
+ 2 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:48:54 --> Call to undefined method App\Libraries\unique_id::instagram_unique()
+in APPPATH\Controllers\insert_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:53:47 --> Class 'App\Libraries\twitter_unique' not found
+in APPPATH\Controllers\insert_controller.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:55:19 --> Class 'App\Libraries\twitter_unique' not found
+in APPPATH\Controllers\insert_controller.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:56:48 --> Undefined variable: results
+in APPPATH\Controllers\insert_controller.php on line 46.
+ 1 APPPATH\Controllers\insert_controller.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Controllers\\insert_controller.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:57:11 --> Class 'App\Libraries\twitter_unique' not found
+in APPPATH\Controllers\insert_controller.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:57:22 --> Class 'App\Libraries\twitter_unique' not found
+in APPPATH\Controllers\insert_controller.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:59:16 --> Class 'App\Libraries\twitter_unique' not found
+in APPPATH\Controllers\insert_controller.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 21:59:51 --> Class 'App\Libraries\twitter_unique' not found
+in APPPATH\Controllers\insert_controller.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:00:23 --> Class 'App\Libraries\twitter_unique' not found
+in APPPATH\Controllers\insert_controller.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:27:44 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 24, [...])
+ 2 APPPATH\Libraries\unique_id.php(24): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:28:04 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 24, [...])
+ 2 APPPATH\Libraries\unique_id.php(24): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:53:32 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 24, [...])
+ 2 APPPATH\Libraries\unique_id.php(24): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:53:35 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 24, [...])
+ 2 APPPATH\Libraries\unique_id.php(24): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:55:37 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:55:56 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:57:30 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:57:34 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:59:08 --> Cannot use [] for reading
+in APPPATH\Libraries\unique_id.php on line 24.
+ 1 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:00:13 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:00:33 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:01:49 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:02:03 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:06:50 --> Illegal offset type
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 APPPATH\Libraries\unique_id.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:07:22 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:07:29 --> Array to string conversion
+in APPPATH\Libraries\unique_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\unique_id.php', 25, [...])
+ 2 APPPATH\Libraries\unique_id.php(25): array_unique([...])
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:14:27 --> Undefined variable: id_post_merge
+in APPPATH\Libraries\unique_id.php on line 27.
+ 1 APPPATH\Libraries\unique_id.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post_merge', 'APPPATH\\Libraries\\unique_id.php', 27, [...])
+ 2 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:20:20 --> array_column() expects parameter 1 to be array, null given
+in APPPATH\Libraries\unique_id.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() expects parameter 1 to be array, null given', 'APPPATH\\Libraries\\unique_id.php', 19, [...])
+ 2 APPPATH\Libraries\unique_id.php(19): array_column(null, 'id_post')
+ 3 APPPATH\Controllers\insert_controller.php(21): App\Libraries\unique_id->unique()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:27:40 --> Undefined variable: builder
+in APPPATH\Models\database63_model.php on line 24.
+ 1 APPPATH\Models\database63_model.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\database63_model.php', 24, [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:28:31 --> Undefined variable: db
+in APPPATH\Models\database63_model.php on line 23.
+ 1 APPPATH\Models\database63_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Models\\database63_model.php', 23, [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 23:28:44 --> mysqli_sql_exception: Table 'influencer.influencer' doesn't exist in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influen...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influen...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influen...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influen...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 23:28:44 --> Table 'influencer.influencer' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer`, `influencer_stat_post_recent`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer`, `influencer_stat_post_recent`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer`, `influencer_stat_post_recent`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer`, `influencer_stat_post_recent`', [], false)
+ 5 APPPATH\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:29:00 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in C:\xampp\htdocs\intern\app\Models\database63_model.php on line 23 and exactly 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 842.
+ 1 APPPATH\Models\database63_model.php(23): CodeIgniter\Database\BaseConnection->table()
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 23:29:13 --> mysqli_sql_exception: Not unique table/alias: 'influencer_stat_post_recent' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influen...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influen...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influen...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influen...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 23:29:13 --> Not unique table/alias: 'influencer_stat_post_recent'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer_stat_post_recent`, `influencer_stat_post_recent`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer_stat_post_recent`, `influencer_stat_post_recent`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer_stat_post_recent`, `influencer_stat_post_recent`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer_stat_post_recent`, `influencer_stat_post_recent`', [], false)
+ 5 APPPATH\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 23:29:23 --> mysqli_sql_exception: Table 'influencer.influencer' doesn't exist in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influen...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influen...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influen...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influen...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 23:29:23 --> Table 'influencer.influencer' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer`, `influencer_stat_post_recent`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer`, `influencer_stat_post_recent`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer`, `influencer_stat_post_recent`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `influencer`, `influencer_stat_post_recent`', [], false)
+ 5 APPPATH\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 23:29:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`166`.`63`, `influencer_stat_post_recent`' at line 2 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influen...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influen...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influen...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influen...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 23:29:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`166`.`63`, `influencer_stat_post_recent`' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `122`.`155`.`166`.`63`, `influencer_stat_post_recent`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `122`.`155`.`166`.`63`, `influencer_stat_post_recent`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `122`.`155`.`166`.`63`, `influencer_stat_post_recent`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `122`.`155`.`166`.`63`, `influencer_stat_post_recent`', [], false)
+ 5 APPPATH\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:30:09 --> Undefined variable: builder
+in APPPATH\Models\database63_model.php on line 23.
+ 1 APPPATH\Models\database63_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\database63_model.php', 23, [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:30:33 --> strpos() expects parameter 1 to be string, array given
+in SYSTEMPATH\Database\BaseBuilder.php on line 553.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, array given', 'SYSTEMPATH\\Database\\BaseBuilder.php', 553, [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(553): strpos([], ',')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(298): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\database63_model))
+ 4 SYSTEMPATH\Database\BaseConnection.php(850): CodeIgniter\Database\BaseBuilder->__construct(Object(App\Models\database63_model), Object(CodeIgniter\Database\MySQLi\Connection))
+ 5 APPPATH\Models\database63_model.php(23): CodeIgniter\Database\BaseConnection->table(Object(App\Models\database63_model))
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-22 23:30:44 --> mysqli_sql_exception: Table 'influencer.database' doesn't exist in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influen...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influen...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influen...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influen...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-22 23:30:44 --> Table 'influencer.database' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `database`, `influencer_stat_post_recent`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `database`, `influencer_stat_post_recent`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `database`, `influencer_stat_post_recent`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `influencer_id`, `network`, `create_date`, `rawdata`
+FROM `database`, `influencer_stat_post_recent`', [], false)
+ 5 APPPATH\Models\database63_model.php(26): CodeIgniter\Database\BaseBuilder->get(0, 25)
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\database63_model->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:33:34 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 57344 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-22 23:34:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 57344 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-22 23:37:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 57344 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-22 23:37:47 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 57344 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-22 23:44:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 57344 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-22 23:46:52 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 57344 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

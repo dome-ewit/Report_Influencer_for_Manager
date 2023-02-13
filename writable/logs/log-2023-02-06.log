@@ -1,0 +1,479 @@
+ERROR - 2023-02-06 03:03:54 --> mysqli_sql_exception: Unknown column 'week' in 'where clause' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE dayly \r\n...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE dayly \r\n...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE dayly \r\n...')
+#3 C:\xampp\htdocs\intern\app\Models\insert_update_dayly.php(78): CodeIgniter\Database\BaseConnection->query('UPDATE dayly \r\n...')
+#4 C:\xampp\htdocs\intern\app\Controllers\Home.php(63): App\Models\insert_update_dayly->insert_account_dayly(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 03:03:54 --> Unknown column 'week' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE dayly 
+            SET account = 560
+            WHERE  day = 7 AND week = \'49\' AND year=\'2022\' AND network = \'instagram\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE dayly 
+            SET account = 560
+            WHERE  day = 7 AND week = \'49\' AND year=\'2022\' AND network = \'instagram\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE dayly 
+            SET account = 560
+            WHERE  day = 7 AND week = \'49\' AND year=\'2022\' AND network = \'instagram\'')
+ 4 APPPATH\Models\insert_update_dayly.php(78): CodeIgniter\Database\BaseConnection->query('UPDATE dayly 
+            SET account = 560
+            WHERE  day = 7 AND week = \'49\' AND year=\'2022\' AND network = \'instagram\'')
+ 5 APPPATH\Controllers\Home.php(63): App\Models\insert_update_dayly->insert_account_dayly([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 21:02:23 --> mysqli_sql_exception: Unknown column 'c' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influ...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influ...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influ...')
+#3 C:\xampp\htdocs\intern\app\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influ...')
+#4 C:\xampp\htdocs\intern\app\Controllers\Home.php(33): App\Models\select_data->query63()
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 21:02:23 --> Unknown column 'c' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influencer_id,network,create_date as c,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,date_format(c, \'Y-m-d H:i:s\') AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influencer_id,network,create_date as c,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,date_format(c, \'Y-m-d H:i:s\') AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influencer_id,network,create_date as c,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,date_format(c, \'Y-m-d H:i:s\') AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 4 APPPATH\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influencer_id,network,create_date as c,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,date_format(c, \'Y-m-d H:i:s\') AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 5 APPPATH\Controllers\Home.php(33): App\Models\select_data->query63()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 21:02:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AS date_formate
+        FROM influencer_stat_post_recent_intern
+        W...' at line 3 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influ...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influ...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influ...')
+#3 C:\xampp\htdocs\intern\app\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influ...')
+#4 C:\xampp\htdocs\intern\app\Controllers\Home.php(33): App\Models\select_data->query63()
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 21:02:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AS date_formate
+        FROM influencer_stat_post_recent_intern
+        W...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,date_format(create_date) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,date_format(create_date) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,date_format(create_date) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 4 APPPATH\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,date_format(create_date) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 5 APPPATH\Controllers\Home.php(33): App\Models\select_data->query63()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 21:09:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+ ...' at line 3 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influ...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influ...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influ...')
+#3 C:\xampp\htdocs\intern\app\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influ...')
+#4 C:\xampp\htdocs\intern\app\Controllers\Home.php(33): App\Models\select_data->query63()
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 21:09:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+ ...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT((create_date), %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT((create_date), %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT((create_date), %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 4 APPPATH\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT((create_date), %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 5 APPPATH\Controllers\Home.php(33): App\Models\select_data->query63()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 21:09:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+ ...' at line 3 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influ...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influ...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influ...')
+#3 C:\xampp\htdocs\intern\app\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influ...')
+#4 C:\xampp\htdocs\intern\app\Controllers\Home.php(33): App\Models\select_data->query63()
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 21:09:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+ ...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT((create_date), %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT((create_date), %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT((create_date), %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 4 APPPATH\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT((create_date), %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 5 APPPATH\Controllers\Home.php(33): App\Models\select_data->query63()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:09:51 --> syntax error, unexpected '"', expecting ')'
+in APPPATH\Models\select_data.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\select_data.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\select_data')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\select_data')
+ 4 APPPATH\Controllers\Home.php(29): spl_autoload_call('App\\Models\\select_data')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:11:32 --> syntax error, unexpected '$results63' (T_VARIABLE), expecting ')'
+in APPPATH\Models\select_data.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\select_data.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\select_data')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\select_data')
+ 4 APPPATH\Controllers\Home.php(29): spl_autoload_call('App\\Models\\select_data')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 21:12:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+ ...' at line 3 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influ...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influ...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influ...')
+#3 C:\xampp\htdocs\intern\app\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influ...')
+#4 C:\xampp\htdocs\intern\app\Controllers\Home.php(33): App\Models\select_data->query63()
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 21:12:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+ ...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT(create_date, %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT(create_date, %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT(create_date, %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 4 APPPATH\Models\select_data.php(40): CodeIgniter\Database\BaseConnection->query('SELECT id,influencer_id,network,create_date,
+        rawdata,follower,week(create_date) AS week,month(create_date) AS month,
+        year(create_date) AS year,day(create_date) AS day,DATE_FORMAT(create_date, %Y %M %d) AS date_formate
+        FROM influencer_stat_post_recent_intern
+        WHERE id > 3417219
+        ORDER BY id ASC 
+        LIMIT 0,10')
+ 5 APPPATH\Controllers\Home.php(33): App\Models\select_data->query63()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:28:48 --> Illegal offset type
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Controllers\\Home.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:28:54 --> Illegal offset type
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Controllers\\Home.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:30:10 --> Illegal offset type
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Controllers\\Home.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:32:13 --> Illegal offset type
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Controllers\\Home.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:35:07 --> Illegal offset type
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Controllers\\Home.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:40:43 --> Illegal offset type
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Controllers\\Home.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 21:50:54 --> Illegal offset type
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Controllers\\Home.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:05:03 --> implode() expects at most 2 parameters, 3 given
+in APPPATH\Controllers\Home.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode() expects at most 2 parameters, 3 given', 'APPPATH\\Controllers\\Home.php', 58, [...])
+ 2 APPPATH\Controllers\Home.php(58): implode(',', [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:06:43 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 58, [...])
+ 2 APPPATH\Controllers\Home.php(58): implode('\',\'', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:06:53 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 58, [...])
+ 2 APPPATH\Controllers\Home.php(58): implode('\',\'', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:11:46 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:12:00 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:12:06 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:12:07 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:12:08 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:12:08 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:12:08 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:12:08 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:12:17 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:13:04 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:13:17 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 23:29:10 --> Undefined variable: row
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Controllers\\Home.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 23:30:38 --> mysqli_sql_exception: Unknown column 'follower' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE weekly \r...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE weekly \r...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE weekly \r...')
+#3 C:\xampp\htdocs\intern\app\Models\insert_update_weekly.php(100): CodeIgniter\Database\BaseConnection->query('UPDATE weekly \r...')
+#4 C:\xampp\htdocs\intern\app\Controllers\Home.php(63): App\Models\insert_update_weekly->insert_account_week(Array, '1457')
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 23:30:38 --> Unknown column 'follower' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE weekly 
+            SET follower=1457
+            WHERE week=49 AND year = 2022 AND  network = \'instagram\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE weekly 
+            SET follower=1457
+            WHERE week=49 AND year = 2022 AND  network = \'instagram\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE weekly 
+            SET follower=1457
+            WHERE week=49 AND year = 2022 AND  network = \'instagram\'')
+ 4 APPPATH\Models\insert_update_weekly.php(100): CodeIgniter\Database\BaseConnection->query('UPDATE weekly 
+            SET follower=1457
+            WHERE week=49 AND year = 2022 AND  network = \'instagram\'')
+ 5 APPPATH\Controllers\Home.php(63): App\Models\insert_update_weekly->insert_account_week([...], '1457')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

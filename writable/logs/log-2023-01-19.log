@@ -1,0 +1,908 @@
+ERROR - 2023-01-19 01:09:30 --> mysqli_sql_exception: INSERT command denied to user 'intern'@'61.7.156.184' for table 'check_dup' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 01:09:30 --> INSERT command denied to user 'intern'@'61.7.156.184' for table 'check_dup'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (`influencer_id`, `network`, `id_post_unique`, `id_post_count`) VALUES (\'11081\', \'facebook\', \'{\\"0\\":\\"4985405404829866\\",\\"1\\":\\"4982564955113911\\",\\"2\\":\\"4984723718231368\\",\\"3\\":\\"4981605991876474\\",\\"4\\":\\"4983304791706594\\",\\"5\\":\\"4982569385113468\\",\\"6\\":\\"4982118838491856\\",\\"7\\":\\"4972398699463870\\",\\"8\\":\\"5069758559727883\\",\\"9\\":\\"706354180367096\\",\\"10\\":\\"5079693822067690\\",\\"11\\":\\"5077668522270220\\",\\"12\\":\\"5077792585591147\\",\\"13\\":\\"5077734198930319\\",\\"14\\":\\"5077101345660271\\",\\"15\\":\\"5069906456379760\\",\\"16\\":\\"5161943720509366\\",\\"17\\":\\"5171814692855602\\",\\"18\\":\\"5170289403008131\\",\\"19\\":\\"5161667900536948\\",\\"20\\":\\"5169822773054794\\",\\"21\\":\\"5161909177179487\\",\\"22\\":\\"5162197760483962\\",\\"23\\":\\"692784268618733\\",\\"24\\":\\"pfbid0fpQqKeQ9fUaf\\",\\"25\\":\\"pfbid02MZwpGvyCdeP\\",\\"26\\":\\"pfbid0FnfwyCUMozFJ\\",\\"27\\":\\"1565935133869148\\",\\"45\\":\\"pfbid0HYM6o7mdxhFf\\",\\"52\\":\\"pfbid0EiyA7vgo7xdZ\\",\\"53\\":\\"pfbid0FqcyJfrGspXZ\\",\\"54\\":\\"pfbid02Vpwc8JWv96F\\",\\"55\\":\\"pfbid02jfrYWKKyWii\\",\\"58\\":\\"pfbid02sF6e9SsXR6r\\",\\"59\\":\\"pfbid06QNPWLWiexGV\\",\\"60\\":\\"pfbid02LXSj588Fzg6\\",\\"61\\":\\"pfbid0375Tw3gYozE9\\",\\"62\\":\\"pfbid0MPFB6mBemLHE\\",\\"76\\":\\"pfbid0hD7r5tRoQdC5\\",\\"77\\":\\"pfbid02KNptzjNqXdp\\",\\"78\\":\\"pfbid0ohTTEHFAZwz9\\",\\"79\\":\\"pfbid02AFp6h1SYWQP\\",\\"88\\":\\"pfbid02nKd6vudkVmF\\",\\"93\\":\\"pfbid0GVr1bJvhKpWq\\"}\', 44)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (`influencer_id`, `network`, `id_post_unique`, `id_post_count`) VALUES (\'11081\', \'facebook\', \'{\\"0\\":\\"4985405404829866\\",\\"1\\":\\"4982564955113911\\",\\"2\\":\\"4984723718231368\\",\\"3\\":\\"4981605991876474\\",\\"4\\":\\"4983304791706594\\",\\"5\\":\\"4982569385113468\\",\\"6\\":\\"4982118838491856\\",\\"7\\":\\"4972398699463870\\",\\"8\\":\\"5069758559727883\\",\\"9\\":\\"706354180367096\\",\\"10\\":\\"5079693822067690\\",\\"11\\":\\"5077668522270220\\",\\"12\\":\\"5077792585591147\\",\\"13\\":\\"5077734198930319\\",\\"14\\":\\"5077101345660271\\",\\"15\\":\\"5069906456379760\\",\\"16\\":\\"5161943720509366\\",\\"17\\":\\"5171814692855602\\",\\"18\\":\\"5170289403008131\\",\\"19\\":\\"5161667900536948\\",\\"20\\":\\"5169822773054794\\",\\"21\\":\\"5161909177179487\\",\\"22\\":\\"5162197760483962\\",\\"23\\":\\"692784268618733\\",\\"24\\":\\"pfbid0fpQqKeQ9fUaf\\",\\"25\\":\\"pfbid02MZwpGvyCdeP\\",\\"26\\":\\"pfbid0FnfwyCUMozFJ\\",\\"27\\":\\"1565935133869148\\",\\"45\\":\\"pfbid0HYM6o7mdxhFf\\",\\"52\\":\\"pfbid0EiyA7vgo7xdZ\\",\\"53\\":\\"pfbid0FqcyJfrGspXZ\\",\\"54\\":\\"pfbid02Vpwc8JWv96F\\",\\"55\\":\\"pfbid02jfrYWKKyWii\\",\\"58\\":\\"pfbid02sF6e9SsXR6r\\",\\"59\\":\\"pfbid06QNPWLWiexGV\\",\\"60\\":\\"pfbid02LXSj588Fzg6\\",\\"61\\":\\"pfbid0375Tw3gYozE9\\",\\"62\\":\\"pfbid0MPFB6mBemLHE\\",\\"76\\":\\"pfbid0hD7r5tRoQdC5\\",\\"77\\":\\"pfbid02KNptzjNqXdp\\",\\"78\\":\\"pfbid0ohTTEHFAZwz9\\",\\"79\\":\\"pfbid02AFp6h1SYWQP\\",\\"88\\":\\"pfbid02nKd6vudkVmF\\",\\"93\\":\\"pfbid0GVr1bJvhKpWq\\"}\', 44)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (`influencer_id`, `network`, `id_post_unique`, `id_post_count`) VALUES (\'11081\', \'facebook\', \'{\\"0\\":\\"4985405404829866\\",\\"1\\":\\"4982564955113911\\",\\"2\\":\\"4984723718231368\\",\\"3\\":\\"4981605991876474\\",\\"4\\":\\"4983304791706594\\",\\"5\\":\\"4982569385113468\\",\\"6\\":\\"4982118838491856\\",\\"7\\":\\"4972398699463870\\",\\"8\\":\\"5069758559727883\\",\\"9\\":\\"706354180367096\\",\\"10\\":\\"5079693822067690\\",\\"11\\":\\"5077668522270220\\",\\"12\\":\\"5077792585591147\\",\\"13\\":\\"5077734198930319\\",\\"14\\":\\"5077101345660271\\",\\"15\\":\\"5069906456379760\\",\\"16\\":\\"5161943720509366\\",\\"17\\":\\"5171814692855602\\",\\"18\\":\\"5170289403008131\\",\\"19\\":\\"5161667900536948\\",\\"20\\":\\"5169822773054794\\",\\"21\\":\\"5161909177179487\\",\\"22\\":\\"5162197760483962\\",\\"23\\":\\"692784268618733\\",\\"24\\":\\"pfbid0fpQqKeQ9fUaf\\",\\"25\\":\\"pfbid02MZwpGvyCdeP\\",\\"26\\":\\"pfbid0FnfwyCUMozFJ\\",\\"27\\":\\"1565935133869148\\",\\"45\\":\\"pfbid0HYM6o7mdxhFf\\",\\"52\\":\\"pfbid0EiyA7vgo7xdZ\\",\\"53\\":\\"pfbid0FqcyJfrGspXZ\\",\\"54\\":\\"pfbid02Vpwc8JWv96F\\",\\"55\\":\\"pfbid02jfrYWKKyWii\\",\\"58\\":\\"pfbid02sF6e9SsXR6r\\",\\"59\\":\\"pfbid06QNPWLWiexGV\\",\\"60\\":\\"pfbid02LXSj588Fzg6\\",\\"61\\":\\"pfbid0375Tw3gYozE9\\",\\"62\\":\\"pfbid0MPFB6mBemLHE\\",\\"76\\":\\"pfbid0hD7r5tRoQdC5\\",\\"77\\":\\"pfbid02KNptzjNqXdp\\",\\"78\\":\\"pfbid0ohTTEHFAZwz9\\",\\"79\\":\\"pfbid02AFp6h1SYWQP\\",\\"88\\":\\"pfbid02nKd6vudkVmF\\",\\"93\\":\\"pfbid0GVr1bJvhKpWq\\"}\', 44)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (`influencer_id`, `network`, `id_post_unique`, `id_post_count`) VALUES (:influencer_id:, :network:, :id_post_unique:, :id_post_count:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(41): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 02:03:28 --> Undefined variable: id_post
+in APPPATH\Libraries\test_count.php on line 23.
+ 1 APPPATH\Libraries\test_count.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post', 'APPPATH\\Libraries\\test_count.php', 23, [...])
+ 2 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 21:23:43 --> Undefined index: rawdata
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: rawdata', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 21:33:07 --> Undefined index: influencer_id
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 APPPATH\Libraries\test_count.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 21:33:28 --> Undefined variable: influencer_id
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 APPPATH\Libraries\test_count.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: influencer_id', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 21:34:11 --> Undefined index: influencer_id
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 APPPATH\Libraries\test_count.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 21:37:51 --> Invalid argument supplied for foreach()
+in APPPATH\Libraries\test_count.php on line 16.
+ 1 APPPATH\Libraries\test_count.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Libraries\\test_count.php', 16, [...])
+ 2 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 21:38:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Test_controller.php on line 23.
+ 1 APPPATH\Controllers\Test_controller.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Test_controller.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 21:52:23 --> Undefined index: influencer_id
+in APPPATH\Models\db63.php on line 25.
+ 1 APPPATH\Models\db63.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Models\\db63.php', 25, [...])
+ 2 APPPATH\Controllers\Test_controller.php(18): App\Models\db63->query63()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:33:32 --> array_merge(): Expected parameter 1 to be an array, string given
+in APPPATH\Libraries\test_count.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, string given', 'APPPATH\\Libraries\\test_count.php', 22, [...])
+ 2 APPPATH\Libraries\test_count.php(22): array_merge('2890239070409970119', '2880851020106024991', '2848090219947734011', '2824766805979774110', '2824168118475826550', '2819075071220251388', '2816910889133773874', '2816187784606037047', '2815475253357034973', '2814794477644603341', '2814604288557206893', '2814596660175057441', '2814269129559539389', '2814025936112816449', '2813388429746527436', '2813028831680506201', '2812655536149632751', '2812623825357752799', '2812454551519320328', '2806668136151915601')
+ 3 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:33:41 --> array_merge(): Expected parameter 1 to be an array, string given
+in APPPATH\Libraries\test_count.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 1 to be an array, string given', 'APPPATH\\Libraries\\test_count.php', 22, [...])
+ 2 APPPATH\Libraries\test_count.php(22): array_merge('2890239070409970119', '2880851020106024991', '2848090219947734011', '2824766805979774110', '2824168118475826550', '2819075071220251388', '2816910889133773874', '2816187784606037047', '2815475253357034973', '2814794477644603341', '2814604288557206893', '2814596660175057441', '2814269129559539389', '2814025936112816449', '2813388429746527436', '2813028831680506201', '2812655536149632751', '2812623825357752799', '2812454551519320328', '2806668136151915601')
+ 3 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:34:23 --> Undefined index: influencer_id
+in APPPATH\Controllers\Test_controller.php on line 23.
+ 1 APPPATH\Controllers\Test_controller.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Controllers\\Test_controller.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:40:39 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Libraries\test_count.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Libraries\\test_count.php', 25, [...])
+ 2 APPPATH\Libraries\test_count.php(25): count('["2890239070409970119","2880851020106024991","2848090219947734011","2824766805979774110","2824168118475826550","2819075071220251388","2816910889133773874","2816187784606037047","2815475253357034973","2814794477644603341","2814604288557206893","2814596660175057441","2814269129559539389","2814025936112816449","2813388429746527436","2813028831680506201","2812655536149632751","2812623825357752799","2812454551519320328","2806668136151915601"]')
+ 3 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:41:18 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Libraries\test_count.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Libraries\\test_count.php', 25, [...])
+ 2 APPPATH\Libraries\test_count.php(25): count('["2890239070409970119","2880851020106024991","2848090219947734011","2824766805979774110","2824168118475826550","2819075071220251388","2816910889133773874","2816187784606037047","2815475253357034973","2814794477644603341","2814604288557206893","2814596660175057441","2814269129559539389","2814025936112816449","2813388429746527436","2813028831680506201","2812655536149632751","2812623825357752799","2812454551519320328","2806668136151915601"]')
+ 3 APPPATH\Controllers\Test_controller.php(22): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:42:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:42:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:43:15 --> Undefined index: influencer_id
+in APPPATH\Controllers\Test_controller.php on line 28.
+ 1 APPPATH\Controllers\Test_controller.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Controllers\\Test_controller.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:43:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:43:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:47:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:47:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:48:45 --> Undefined index: influencer_id
+in APPPATH\Controllers\Test_controller.php on line 28.
+ 1 APPPATH\Controllers\Test_controller.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Controllers\\Test_controller.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:50:48 --> Undefined variable: data
+in APPPATH\Controllers\Test_controller.php on line 27.
+ 1 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Test_controller.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:50:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:50:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:51:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:51:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0) VALUES (:0:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0) VALUES (:0:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0) VALUES (:0:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0) VALUES (:0:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:51:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:51:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (1) VALUES (:1:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (1) VALUES (:1:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (1) VALUES (:1:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (1) VALUES (:1:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:53:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:53:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:54:03 --> Cannot use [] for reading
+in APPPATH\Controllers\Test_controller.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 22:54:13 --> Cannot use [] for reading
+in APPPATH\Controllers\Test_controller.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:57:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:57:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 22:57:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 22:57:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0) VALUES (:0:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0) VALUES (:0:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0) VALUES (:0:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0) VALUES (:0:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:03:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:03:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\Test_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:21:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:21:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:22:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:22:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:22:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:22:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:25:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:25:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:30:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:30:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:,...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:31:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:31:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:31:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:31:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:31:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:31:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:33:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:33:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:33:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:33:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:34:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:34:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0) VALUES (:0:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0) VALUES (:0:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0) VALUES (:0:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0) VALUES (:0:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:34:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:34:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:35:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:35:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:35:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:35:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:35:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:35:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:36:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:36:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0) VALUES (:0:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0) VALUES (:0:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0) VALUES (:0:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0) VALUES (:0:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:37:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:37:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:, :9:, :10:, :11:, :12:, :13:, :14:, :15:, :16:, :17:, :18:, :19:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:45:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:45:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:50:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:50:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 23:51:41 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type bool or null, array given, called in C:\xampp\htdocs\intern\app\Controllers\insert_controller.php on line 26
+in SYSTEMPATH\Database\BaseBuilder.php on line 1892.
+ 1 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...], [...], [...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 23:52:34 --> Call to undefined method App\Controllers\BaseController::index()
+in APPPATH\Controllers\insert_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 23:52:40 --> Cannot call constructor
+in APPPATH\Controllers\insert_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 23:52:48 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type bool or null, array given, called in C:\xampp\htdocs\intern\app\Controllers\insert_controller.php on line 26
+in SYSTEMPATH\Database\BaseBuilder.php on line 1892.
+ 1 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...], [...], [...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 23:54:14 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type bool or null, array given, called in C:\xampp\htdocs\intern\app\Controllers\insert_controller.php on line 27
+in SYSTEMPATH\Database\BaseBuilder.php on line 1892.
+ 1 APPPATH\Controllers\insert_controller.php(27): CodeIgniter\Database\BaseBuilder->insert([...], [...], [...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:54:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:54:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-19 23:59:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-19 23:59:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `check_dup` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

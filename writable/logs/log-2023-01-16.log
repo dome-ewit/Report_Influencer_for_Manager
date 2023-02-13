@@ -1,0 +1,827 @@
+CRITICAL - 2023-01-16 01:35:51 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Libraries\test_count.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 17, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:43:13 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Libraries\test_count.php(12): CodeIgniter\Model->__call('query', [])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:47:09 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Libraries\test_count.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 17, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:47:25 --> Undefined variable: database_63
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 APPPATH\Libraries\test_count.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: database_63', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:50:10 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Libraries\test_count.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 17, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:50:25 --> Cannot use [] for reading
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:50:33 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Libraries\test_count.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 17, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:50:53 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Libraries\\test_count.php', 17, [...])
+ 2 APPPATH\Libraries\test_count.php(17): json_decode([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:51:02 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Libraries\test_count.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 17, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:56:11 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:57:13 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:58:53 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 01:59:15 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:00:51 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:00:53 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:00:54 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:00:54 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:00:55 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:00:55 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:01:31 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Libraries\test_count.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 20, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:01:33 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Libraries\test_count.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 20, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:01:43 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:01:50 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:02:27 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:02:30 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:05:53 --> Trying to access array offset on value of type int
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Libraries\test_count.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Libraries\\test_count.php', 17, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:06:05 --> Undefined index: testtt
+in APPPATH\Controllers\Test_controller.php on line 18.
+ 1 APPPATH\Controllers\Test_controller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: testtt', 'APPPATH\\Controllers\\Test_controller.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:07:20 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:07:45 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 17.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-16 02:23:11 --> mysqli_sql_exception: Table 'influencer.influencer_stat_post_recent' doesn't exist in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\db63.php(16): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(13): App\Models\db63->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-16 02:23:11 --> Table 'influencer.influencer_stat_post_recent' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id,network,create_date,JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 110602', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id,network,create_date,JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 110602')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id,network,create_date,JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 110602')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date,JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 110602')
+ 5 APPPATH\Models\db63.php(16): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Test_controller.php(13): App\Models\db63->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:23:50 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Libraries\test_count.php(15): json_decode([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:24:17 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Libraries\test_count.php(15): json_decode([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:24:33 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Libraries\test_count.php(15): json_decode([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:24:51 --> Cannot use [] for reading
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:25:00 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Libraries\test_count.php(15): json_decode([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:25:04 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Libraries\test_count.php(15): json_decode([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:25:09 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Libraries\test_count.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Libraries\\test_count.php', 15, [...])
+ 2 APPPATH\Libraries\test_count.php(15): json_decode([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 02:25:34 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Libraries\test_count.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Libraries\\test_count.php', 16, [...])
+ 2 APPPATH\Libraries\test_count.php(16): json_decode([])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 03:31:07 --> Call to undefined function App\Libraries\JSON_EXTRACT()
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 03:33:10 --> Call to undefined function App\Libraries\JSON_EXTRACT()
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 03:33:51 --> Call to undefined function App\Libraries\JSON_EXTRACT()
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 03:34:15 --> Call to undefined function App\Libraries\JSON_EXTRACT()
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 03:35:05 --> Call to undefined function App\Libraries\JSON_EXTRACT()
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-16 04:04:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE network = 'faebook'
+        GROUP BY create_date' at line 4 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\db63.php(16): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(13): App\Models\db63->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-16 04:04:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE network = 'faebook'
+        GROUP BY create_date' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id,network,create_date,
+        JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND WHERE network = \'faebook\'
+        GROUP BY create_date', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id,network,create_date,
+        JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND WHERE network = \'faebook\'
+        GROUP BY create_date')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id,network,create_date,
+        JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND WHERE network = \'faebook\'
+        GROUP BY create_date')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date,
+        JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND WHERE network = \'faebook\'
+        GROUP BY create_date')
+ 5 APPPATH\Models\db63.php(16): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Test_controller.php(13): App\Models\db63->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-16 04:04:28 --> mysqli_sql_exception: Unknown column 'facebook' in 'where clause' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\db63.php(16): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(13): App\Models\db63->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-16 04:04:28 --> Unknown column 'facebook' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id,network,create_date,
+        JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND network = facebook
+        GROUP BY create_date', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id,network,create_date,
+        JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND network = facebook
+        GROUP BY create_date')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id,network,create_date,
+        JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND network = facebook
+        GROUP BY create_date')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date,
+        JSON_EXTRACT(rawdata, \'$[*].id_post\')
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND network = facebook
+        GROUP BY create_date')
+ 5 APPPATH\Models\db63.php(16): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Test_controller.php(13): App\Models\db63->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 04:55:44 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 04:58:35 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 04:58:54 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 04:59:37 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 20.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:00:19 --> Undefined variable: testtt
+in APPPATH\Libraries\test_count.php on line 29.
+ 1 APPPATH\Libraries\test_count.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: testtt', 'APPPATH\\Libraries\\test_count.php', 29, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:02:43 --> A non well formed numeric value encountered
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:09:25 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:09:35 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:09:42 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:06 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:07 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:07 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:07 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:07 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:08 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:08 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:08 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:10:08 --> Undefined index: JSON_EXTRACT(rawdata, '$[*].id_post')
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JSON_EXTRACT(rawdata, \'$[*].id_post\')', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:14:29 --> array_merge(): Expected parameter 2 to be an array, string given
+in APPPATH\Libraries\test_count.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 2 to be an array, string given', 'APPPATH\\Libraries\\test_count.php', 21, [...])
+ 2 APPPATH\Libraries\test_count.php(21): array_merge([...], '2022-02-23 13:58:28')
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:27:17 --> Undefined index: testt
+in APPPATH\Controllers\Test_controller.php on line 18.
+ 1 APPPATH\Controllers\Test_controller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: testt', 'APPPATH\\Controllers\\Test_controller.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:28:39 --> array_column() expects at least 2 parameters, 1 given
+in APPPATH\Libraries\test_count.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() expects at least 2 parameters, 1 given', 'APPPATH\\Libraries\\test_count.php', 22, [...])
+ 2 APPPATH\Libraries\test_count.php(22): array_column([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:32:07 --> Undefined index: rawdata
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: rawdata', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:41:57 --> Undefined variable: id_post_counts
+in APPPATH\Libraries\test_count.php on line 28.
+ 1 APPPATH\Libraries\test_count.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post_counts', 'APPPATH\\Libraries\\test_count.php', 28, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-16 21:44:16 --> mysqli_sql_exception: Unknown column 'WEEK' in 'group statement' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\db63.php(16): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(13): App\Models\db63->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-16 21:44:16 --> Unknown column 'WEEK' in 'group statement'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id,network,create_date,
+        rawdata
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND network = \'facebook\'
+        GROUP BY WEEK', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id,network,create_date,
+        rawdata
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND network = \'facebook\'
+        GROUP BY WEEK')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id,network,create_date,
+        rawdata
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND network = \'facebook\'
+        GROUP BY WEEK')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date,
+        rawdata
+        FROM influencer_stat_post_recent
+        WHERE influencer_id = 11081 AND network = \'facebook\'
+        GROUP BY WEEK')
+ 5 APPPATH\Models\db63.php(16): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Test_controller.php(13): App\Models\db63->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:47:03 --> Undefined index: rawdata,create_date
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: rawdata,create_date', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:54:04 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 21.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:55:12 --> Array to string conversion
+in APPPATH\Libraries\test_count.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\test_count.php', 25, [...])
+ 2 APPPATH\Libraries\test_count.php(25): array_unique([...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:58:02 --> Array to string conversion
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:58:25 --> Function name must be a string
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:58:32 --> Array to string conversion
+in APPPATH\Libraries\test_count.php on line 19.
+ 1 APPPATH\Libraries\test_count.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\test_count.php', 19, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:03:07 --> Undefined variable: id_post
+in APPPATH\Libraries\test_count.php on line 28.
+ 1 APPPATH\Libraries\test_count.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post', 'APPPATH\\Libraries\\test_count.php', 28, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:20:49 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:25:00 --> Undefined property: App\Controllers\Test_controller::$input
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Test_controller::$input', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:33:30 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:34:06 --> Undefined property: App\Controllers\Test_controller::$input
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Test_controller::$input', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:34:07 --> Undefined property: App\Controllers\Test_controller::$input
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Test_controller::$input', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:34:17 --> Call to undefined method App\Controllers\Test_controller::getMethod()
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:35:49 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:36:08 --> Undefined variable: uri
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: uri', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:36:41 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:36:42 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:36:42 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:36:42 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:36:42 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:36:43 --> Undefined variable: request
+in APPPATH\Controllers\Test_controller.php on line 12.
+ 1 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\Test_controller.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:46:58 --> Undefined variable: something
+in APPPATH\Controllers\Test_controller.php on line 26.
+ 1 APPPATH\Controllers\Test_controller.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: something', 'APPPATH\\Controllers\\Test_controller.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

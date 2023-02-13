@@ -1,0 +1,167 @@
+CRITICAL - 2023-01-29 21:20:17 --> Undefined index: id
+in APPPATH\Controllers\insert_controller.php on line 52.
+ 1 APPPATH\Controllers\insert_controller.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\insert_controller.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 21:56:49 --> Class 'App\Models\check_dup_monthly' not found
+in APPPATH\Models\database_monthly.php on line 41.
+ 1 APPPATH\Controllers\insert_controller.php(29): App\Models\database_monthly->sum_value_monthly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:02:47 --> Call to a member function getResultArray() on array
+in APPPATH\Models\database_monthly.php on line 50.
+ 1 APPPATH\Controllers\insert_controller.php(29): App\Models\database_monthly->sum_value_monthly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:20:50 --> Undefined variable: query63
+in APPPATH\Libraries\check_dup.php on line 35.
+ 1 APPPATH\Libraries\check_dup.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: query63', 'APPPATH\\Libraries\\check_dup.php', 35, [])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:22:30 --> Call to a member function getResultArray() on array
+in APPPATH\Libraries\check_dup.php on line 38.
+ 1 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:29:53 --> Undefined index: week
+in APPPATH\Libraries\check_dup.php on line 38.
+ 1 APPPATH\Libraries\check_dup.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: week', 'APPPATH\\Libraries\\check_dup.php', 38, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:30:50 --> Undefined index: week
+in APPPATH\Libraries\check_dup.php on line 38.
+ 1 APPPATH\Libraries\check_dup.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: week', 'APPPATH\\Libraries\\check_dup.php', 38, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:44:04 --> Unsupported operand types
+in APPPATH\Libraries\check_dup.php on line 28.
+ 1 APPPATH\Controllers\insert_controller.php(22): App\Libraries\check_dup->dup()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 22:45:21 --> Unsupported operand types
+in APPPATH\Libraries\check_dup.php on line 29.
+ 1 APPPATH\Controllers\insert_controller.php(22): App\Libraries\check_dup->dup()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:00:55 --> Call to undefined function App\Libraries\sum()
+in APPPATH\Libraries\check_dup.php on line 40.
+ 1 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:04:07 --> Call to undefined function App\Libraries\sum()
+in APPPATH\Libraries\check_dup.php on line 41.
+ 1 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:06:34 --> Call to a member function getResultArray() on int
+in APPPATH\Libraries\check_dup.php on line 45.
+ 1 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:10:45 --> Undefined offset: 30
+in APPPATH\Libraries\check_dup.php on line 41.
+ 1 APPPATH\Libraries\check_dup.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 30', 'APPPATH\\Libraries\\check_dup.php', 41, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:19:37 --> Call to undefined function App\Libraries\sum()
+in APPPATH\Libraries\check_dup.php on line 40.
+ 1 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:22:20 --> Undefined variable: test_sum_total
+in APPPATH\Libraries\check_dup.php on line 40.
+ 1 APPPATH\Libraries\check_dup.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_sum_total', 'APPPATH\\Libraries\\check_dup.php', 40, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:23:30 --> Undefined variable: test_sum_total
+in APPPATH\Libraries\check_dup.php on line 40.
+ 1 APPPATH\Libraries\check_dup.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_sum_total', 'APPPATH\\Libraries\\check_dup.php', 40, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:25:03 --> Undefined variable: results_test
+in APPPATH\Libraries\check_dup.php on line 40.
+ 1 APPPATH\Libraries\check_dup.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results_test', 'APPPATH\\Libraries\\check_dup.php', 40, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:27:44 --> Undefined variable: test_sum_total
+in APPPATH\Libraries\check_dup.php on line 40.
+ 1 APPPATH\Libraries\check_dup.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_sum_total', 'APPPATH\\Libraries\\check_dup.php', 40, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:36:53 --> array_sum() expects parameter 1 to be array, int given
+in APPPATH\Libraries\check_dup.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_sum() expects parameter 1 to be array, int given', 'APPPATH\\Libraries\\check_dup.php', 40, [...])
+ 2 APPPATH\Libraries\check_dup.php(40): array_sum(30)
+ 3 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:39:31 --> Call to a member function getResultArray() on int
+in APPPATH\Libraries\check_dup.php on line 45.
+ 1 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:50:02 --> Undefined variable: id_post
+in APPPATH\Libraries\check_dup.php on line 39.
+ 1 APPPATH\Libraries\check_dup.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post', 'APPPATH\\Libraries\\check_dup.php', 39, [...])
+ 2 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-29 23:50:54 --> array_sum() expects parameter 1 to be array, int given
+in APPPATH\Libraries\check_dup.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_sum() expects parameter 1 to be array, int given', 'APPPATH\\Libraries\\check_dup.php', 39, [...])
+ 2 APPPATH\Libraries\check_dup.php(39): array_sum(30)
+ 3 APPPATH\Controllers\insert_controller.php(23): App\Libraries\check_dup->sum_calue_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

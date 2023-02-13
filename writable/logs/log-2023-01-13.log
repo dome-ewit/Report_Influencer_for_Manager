@@ -1,0 +1,82 @@
+ERROR - 2023-01-13 02:30:35 --> Error connecting to the database: ErrorException: Uninitialized string offset: 0 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:82
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\db63.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(12): App\Models\db63->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-13 02:30:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Uninitialized string offset: 0
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date
+         ,sum(post) AS Post_Test
+        FROM log
+        GROUP BY network')
+ 3 APPPATH\Models\db63.php(17): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Test_controller.php(12): App\Models\db63->query63()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-13 02:31:28 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('root', '', '', 'influencer', 3306, '', 0)
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#5 C:\xampp\htdocs\intern\app\Models\db63.php(17): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(12): App\Models\db63->query63()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('root', '', '', 'influencer', 3306, '', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\db63.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(12): App\Models\db63->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\app\Models\db63.php(17): CodeIgniter\Model->__call('query', Array)
+#4 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(12): App\Models\db63->query63()
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-13 02:31:28 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,network,create_date
+         ,sum(post) AS Post_Test
+        FROM log
+        GROUP BY network')
+ 3 APPPATH\Models\db63.php(17): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Test_controller.php(12): App\Models\db63->query63()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,104 @@
+ERROR - 2023-02-08 00:50:16 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\select_data.php(48): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\Home.php(52): App\Models\select_data->account_overall()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-08 00:50:16 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,COUNT(DISTINCT influencer_id) influencer_profile  FROM influencer_stat_post_recent_intern
+        GROUP BY network;
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,COUNT(DISTINCT influencer_id) influencer_profile  FROM influencer_stat_post_recent_intern
+        GROUP BY network;
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,COUNT(DISTINCT influencer_id) influencer_profile  FROM influencer_stat_post_recent_intern
+        GROUP BY network;
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,COUNT(DISTINCT influencer_id) influencer_profile  FROM influencer_stat_post_recent_intern
+        GROUP BY network;
+        ')
+ 5 APPPATH\Models\select_data.php(48): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Home.php(52): App\Models\select_data->account_overall()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-08 20:48:45 --> mysqli_sql_exception: Server shutdown in progress in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Models\select_insert_update_unique_post.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Libraries\merge_id.php(37): App\Models\select_insert_update_unique_post->select_influenecr_json('5818', 'tiktok')
+#6 C:\xampp\htdocs\intern\app\Controllers\Home.php(30): App\Libraries\merge_id->merge(Array)
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-08 20:48:45 --> Server shutdown in progress
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id,tiktok as network
+        FROM post_unique
+        where influencer_id = 5818  ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id,tiktok as network
+        FROM post_unique
+        where influencer_id = 5818  ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id,tiktok as network
+        FROM post_unique
+        where influencer_id = 5818  ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id,tiktok as network
+        FROM post_unique
+        where influencer_id = 5818  ')
+ 5 APPPATH\Models\select_insert_update_unique_post.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Libraries\merge_id.php(37): App\Models\select_insert_update_unique_post->select_influenecr_json('5818', 'tiktok')
+ 7 APPPATH\Controllers\Home.php(30): App\Libraries\merge_id->merge([...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 21:28:48 --> Division by zero
+in APPPATH\Models\insert_update_dayly.php on line 45.
+ 1 APPPATH\Models\insert_update_dayly.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Models\\insert_update_dayly.php', 45, [...])
+ 2 APPPATH\Models\insert_update_dayly.php(35): App\Models\insert_update_dayly->update_total_unique_post_dayly('2022', '12', '7', 'twitter', '0', '0', 0, 0)
+ 3 APPPATH\Controllers\Home.php(31): App\Models\insert_update_dayly->select_insert_update_dayly([...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 21:29:33 --> Array to string conversion
+in APPPATH\Libraries\merge_id.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\merge_id.php', 52, [...])
+ 2 APPPATH\Libraries\merge_id.php(52): array_unique([...])
+ 3 APPPATH\Controllers\Home.php(30): App\Libraries\merge_id->merge([...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 21:56:18 --> Undefined index: check_id
+in APPPATH\Models\select_insert_update_unique_post.php on line 35.
+ 1 APPPATH\Models\select_insert_update_unique_post.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: check_id', 'APPPATH\\Models\\select_insert_update_unique_post.php', 35, [...])
+ 2 APPPATH\Libraries\merge_id.php(69): App\Models\select_insert_update_unique_post->insert_unique_post([...])
+ 3 APPPATH\Controllers\Home.php(30): App\Libraries\merge_id->merge([...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 22:01:32 --> Undefined index: check_id
+in APPPATH\Models\select_insert_update_unique_post.php on line 35.
+ 1 APPPATH\Models\select_insert_update_unique_post.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: check_id', 'APPPATH\\Models\\select_insert_update_unique_post.php', 35, [...])
+ 2 APPPATH\Libraries\merge_id.php(69): App\Models\select_insert_update_unique_post->insert_unique_post([...])
+ 3 APPPATH\Controllers\Home.php(30): App\Libraries\merge_id->merge([...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

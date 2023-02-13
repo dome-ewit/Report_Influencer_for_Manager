@@ -1,0 +1,22 @@
+CRITICAL - 2023-02-09 03:34:28 --> Undefined index: check_id
+in APPPATH\Libraries\merge_id.php on line 27.
+ 1 APPPATH\Libraries\merge_id.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: check_id', 'APPPATH\\Libraries\\merge_id.php', 27, [...])
+ 2 APPPATH\Controllers\Home.php(30): App\Libraries\merge_id->merge([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 21:40:19 --> Call to undefined method App\Models\select_data::account_week
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Home.php(58): CodeIgniter\Model->__call('account_week', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 21:49:20 --> Undefined index: counting_follower
+in APPPATH\Controllers\Home.php on line 54.
+ 1 APPPATH\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: counting_follower', 'APPPATH\\Controllers\\Home.php', 54, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1410 @@
+CRITICAL - 2023-01-31 01:03:38 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 22.
+ 1 APPPATH\Models\insert_update_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 22, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 01:04:49 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 22.
+ 1 APPPATH\Models\insert_update_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 22, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 01:06:49 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 22.
+ 1 APPPATH\Models\insert_update_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 22, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 01:08:26 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 22.
+ 1 APPPATH\Models\insert_update_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 22, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 01:08:54 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 23, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 01:09:05 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 22.
+ 1 APPPATH\Models\insert_update_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 22, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 01:11:14 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 22.
+ 1 APPPATH\Models\insert_update_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 22, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 01:13:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(35): CodeIgniter\Database\BaseBuilder->insert(false)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 01:13:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `weekly` (0) VALUES (:0:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `weekly` (0) VALUES (:0:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `weekly` (0) VALUES (:0:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weekly` (0) VALUES (:0:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(35): CodeIgniter\Database\BaseBuilder->insert(false)
+ 6 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 01:13:28 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 24.
+ 1 APPPATH\Models\insert_update_model.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 24, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 01:15:54 --> Undefined index: total_post
+in APPPATH\Models\insert_update_model.php on line 22.
+ 1 APPPATH\Models\insert_update_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_post', 'APPPATH\\Models\\insert_update_model.php', 22, [...])
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:18:00 --> Invalid argument supplied for foreach()
+in APPPATH\Libraries\check_dup.php on line 17.
+ 1 APPPATH\Libraries\check_dup.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Libraries\\check_dup.php', 17, [...])
+ 2 APPPATH\Models\insert_update_model.php(18): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:20:03 --> Class 'App\Models\merge_id' not found
+in APPPATH\Models\insert_update_model.php on line 71.
+ 1 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 02:20:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '53459, `[1600210664840376320,1600153511781883904,1599997821436194816,15999475...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(141): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 02:20:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '53459, `[1600210664840376320,1600153511781883904,1599997821436194816,15999475...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post_unique` (53459, `[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]`) VALUES (:53459:, :[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post_unique` (53459, `[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]`) VALUES (:53459:, :[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post_unique` (53459, `[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]`) VALUES (:53459:, :[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post_unique` (53459, `[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]`) VALUES (:53459:, :[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(141): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:22:32 --> Array to string conversion
+in APPPATH\Libraries\merge_id.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\merge_id.php', 20, [...])
+ 2 APPPATH\Libraries\merge_id.php(20): strval([...])
+ 3 APPPATH\Controllers\insert_controller.php(20): App\Libraries\merge_id->merge()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:22:47 --> strval() expects exactly 1 parameter, 2 given
+in APPPATH\Libraries\merge_id.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strval() expects exactly 1 parameter, 2 given', 'APPPATH\\Libraries\\merge_id.php', 20, [...])
+ 2 APPPATH\Libraries\merge_id.php(20): strval([...], 'id_post')
+ 3 APPPATH\Controllers\insert_controller.php(20): App\Libraries\merge_id->merge()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:24:37 --> Array to string conversion
+in APPPATH\Libraries\merge_id.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\merge_id.php', 25, [...])
+ 2 APPPATH\Libraries\merge_id.php(25): strval([...])
+ 3 APPPATH\Controllers\insert_controller.php(20): App\Libraries\merge_id->merge()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:26:21 --> Array to string conversion
+in APPPATH\Libraries\merge_id.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Libraries\\merge_id.php', 20, [...])
+ 2 APPPATH\Libraries\merge_id.php(20): strval([...])
+ 3 APPPATH\Controllers\insert_controller.php(20): App\Libraries\merge_id->merge()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 02:27:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '53459, `[1600210664840376320,1600153511781883904,1599997821436194816,15999475...' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(141): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 02:27:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '53459, `[1600210664840376320,1600153511781883904,1599997821436194816,15999475...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post_unique` (53459, `[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]`) VALUES (:53459:, :[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post_unique` (53459, `[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]`) VALUES (:53459:, :[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post_unique` (53459, `[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]`) VALUES (:53459:, :[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post_unique` (53459, `[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]`) VALUES (:53459:, :[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(141): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 02:36:59 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(127): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 02:36:59 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post_unique` (`influencer_id`, `id_post`, `network`, `new_id_post`) VALUES (\'53459\', (1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144), \'twitter\', \'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post_unique` (`influencer_id`, `id_post`, `network`, `new_id_post`) VALUES (\'53459\', (1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144), \'twitter\', \'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post_unique` (`influencer_id`, `id_post`, `network`, `new_id_post`) VALUES (\'53459\', (1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144), \'twitter\', \'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post_unique` (`influencer_id`, `id_post`, `network`, `new_id_post`) VALUES (:influencer_id:, :id_post:, :network:, :new_id_post:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(127): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 02:52:06 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 02:52:06 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post_unique` (`facebook`, `instagram`, `twitter`, `tiktok`) VALUES ((\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post_unique` (`facebook`, `instagram`, `twitter`, `tiktok`) VALUES ((\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post_unique` (`facebook`, `instagram`, `twitter`, `tiktok`) VALUES ((\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post_unique` (`facebook`, `instagram`, `twitter`, `tiktok`) VALUES (:facebook:, :instagram:, :twitter:, :tiktok:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(82): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:54:43 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type bool or null, array given, called in C:\xampp\htdocs\intern\app\Models\insert_update_model.php on line 82
+in SYSTEMPATH\Database\BaseBuilder.php on line 1892.
+ 1 APPPATH\Models\insert_update_model.php(82): CodeIgniter\Database\BaseBuilder->insert('53459', [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:55:24 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::insertBatch() must be of the type array or null, string given, called in C:\xampp\htdocs\intern\app\Models\insert_update_model.php on line 82
+in SYSTEMPATH\Database\BaseBuilder.php on line 1737.
+ 1 APPPATH\Models\insert_update_model.php(82): CodeIgniter\Database\BaseBuilder->insertBatch('53459', [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 02:55:49 --> array_keys() expects parameter 1 to be array, string given
+in SYSTEMPATH\Database\BaseBuilder.php on line 1820.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() expects parameter 1 to be array, string given', 'SYSTEMPATH\\Database\\BaseBuilder.php', 1820, [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1820): array_keys('[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1770): CodeIgniter\Database\BaseBuilder->setInsertBatch([...], 'ROOTPATH\\public', true)
+ 4 APPPATH\Models\insert_update_model.php(82): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 5 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 02:57:40 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `po...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_model.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 02:57:40 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `post_unique` (`facebook`, `instagram`, `twitter`, `tiktok`) VALUES ((\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `post_unique` (`facebook`, `instagram`, `twitter`, `tiktok`) VALUES ((\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `post_unique` (`facebook`, `instagram`, `twitter`, `tiktok`) VALUES ((\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'), (\'53459\',\'twitter\',\'[1600210664840376320,1600153511781883904,1599997821436194816,1599947557488431105,1599708270864003072,1599692530278625281,1599653396658946050,1599635974644207617,1599062991965659139,1598881241373487105,1598643611805319168,1598524592209158144]\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `post_unique` (`facebook`, `instagram`, `twitter`, `tiktok`) VALUES (:facebook:, :instagram:, :twitter:, :tiktok:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(82): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 03:06:59 --> Class 'App\Controllers\merge_id' not found
+in APPPATH\Controllers\insert_controller.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 03:19:11 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type bool or null, array given, called in C:\xampp\htdocs\intern\app\Models\insert_update_model.php on line 84
+in SYSTEMPATH\Database\BaseBuilder.php on line 1892.
+ 1 APPPATH\Models\insert_update_model.php(84): CodeIgniter\Database\BaseBuilder->insert('53459', [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 03:20:05 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type bool or null, array given, called in C:\xampp\htdocs\intern\app\Models\insert_update_model.php on line 84
+in SYSTEMPATH\Database\BaseBuilder.php on line 1892.
+ 1 APPPATH\Models\insert_update_model.php(84): CodeIgniter\Database\BaseBuilder->insert('53459', [...])
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 04:19:20 --> mysqli_sql_exception: Unknown column 'unique_post' in 'field list' in C:\xampp1\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp1\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp1\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp1\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp1\htdocs\intern\app\Models\insert_update_model.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp1\htdocs\intern\app\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+#6 C:\xampp1\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp1\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp1\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 04:19:20 --> Unknown column 'unique_post' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `weekly` (`week`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'49\', \'2022\', \'twitter\', 1629, 1629)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `weekly` (`week`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'49\', \'2022\', \'twitter\', 1629, 1629)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `weekly` (`week`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'49\', \'2022\', \'twitter\', 1629, 1629)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weekly` (`week`, `year`, `network`, `total_post`, `unique_post`) VALUES (:week:, :year:, :network:, :total_post:, :unique_post:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 04:22:42 --> mysqli_sql_exception: Unknown column 'unique_post' in 'field list' in C:\xampp1\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp1\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp1\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp1\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp1\htdocs\intern\app\Models\insert_update_model.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp1\htdocs\intern\app\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+#6 C:\xampp1\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp1\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp1\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 04:22:42 --> Unknown column 'unique_post' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `weekly` (`week`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'49\', \'2022\', \'twitter\', 1629, 1629)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `weekly` (`week`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'49\', \'2022\', \'twitter\', 1629, 1629)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `weekly` (`week`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'49\', \'2022\', \'twitter\', 1629, 1629)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weekly` (`week`, `year`, `network`, `total_post`, `unique_post`) VALUES (:week:, :year:, :network:, :total_post:, :unique_post:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 04:24:30 --> mysqli_sql_exception: Unknown column 'unique_post' in 'field list' in C:\xampp1\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp1\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp1\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp1\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp1\htdocs\intern\app\Models\insert_update_model.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp1\htdocs\intern\app\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+#6 C:\xampp1\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp1\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp1\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 04:24:30 --> Unknown column 'unique_post' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `monthly` (`month`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'12\', \'2022\', \'twitter\', 1629, 1629)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `monthly` (`month`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'12\', \'2022\', \'twitter\', 1629, 1629)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `monthly` (`month`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'12\', \'2022\', \'twitter\', 1629, 1629)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `monthly` (`month`, `year`, `network`, `total_post`, `unique_post`) VALUES (:month:, :year:, :network:, :total_post:, :unique_post:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(61): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 04:25:02 --> mysqli_sql_exception: Unknown column 'unique_post' in 'field list' in C:\xampp1\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp1\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp1\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp1\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp1\htdocs\intern\app\Models\insert_update_model.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp1\htdocs\intern\app\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+#6 C:\xampp1\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp1\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp1\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-31 04:25:02 --> Unknown column 'unique_post' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `monthly` (`month`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'12\', \'2022\', \'twitter\', 1629, 1629)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `monthly` (`month`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'12\', \'2022\', \'twitter\', 1629, 1629)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `monthly` (`month`, `year`, `network`, `total_post`, `unique_post`) VALUES (\'12\', \'2022\', \'twitter\', 1629, 1629)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `monthly` (`month`, `year`, `network`, `total_post`, `unique_post`) VALUES (:month:, :year:, :network:, :total_post:, :unique_post:)', [...], false)
+ 5 APPPATH\Models\insert_update_model.php(61): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 04:36:25 --> Undefined array key "$network"
+in APPPATH\Models\insert_update_model.php on line 78.
+ 1 APPPATH\Models\insert_update_model.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$network"', 'APPPATH\\Models\\insert_update_model.php', 78)
+ 2 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:07:23 --> Undefined variable $results_check
+in APPPATH\Models\database63_model.php on line 25.
+ 1 APPPATH\Models\database63_model.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results_check', 'APPPATH\\Models\\database63_model.php', 25)
+ 2 APPPATH\Libraries\check_dup.php(11): App\Models\database63_model->query63()
+ 3 APPPATH\Models\insert_update_model.php(18): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 05:44:40 --> Undefined variable $array_merget
+in APPPATH\Libraries\merge_id.php on line 28.
+ 1 APPPATH\Libraries\merge_id.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array_merget', 'APPPATH\\Libraries\\merge_id.php', 28)
+ 2 APPPATH\Models\insert_update_model.php(73): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(17): App\Models\insert_update_model->insert_merge()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 10:41:12 --> mysqli_sql_exception: Table 'influencer.process_lastid' doesn't exist in C:\xampp1\htdocs\intern_\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp1\htdocs\intern_\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,last_...', 0)
+#1 C:\xampp1\htdocs\intern_\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,last_...')
+#2 C:\xampp1\htdocs\intern_\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,last_...')
+#3 C:\xampp1\htdocs\intern_\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,last_...')
+#4 C:\xampp1\htdocs\intern_\app\Models\lastid.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\intern_\app\Libraries\merge_id.php(14): App\Models\lastid->stat_id()
+#6 C:\xampp1\htdocs\intern_\app\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+#7 C:\xampp1\htdocs\intern_\app\Controllers\insert_controller.php(20): App\Libraries\merge_id->unique_id_post()
+#8 C:\xampp1\htdocs\intern_\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#9 C:\xampp1\htdocs\intern_\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#10 C:\xampp1\htdocs\intern_\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp1\htdocs\intern_\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-31 10:41:12 --> Table 'influencer.process_lastid' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id,last_id,last_running
+        FROM process_lastid
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,last_id,last_running
+        FROM process_lastid
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,last_id,last_running
+        FROM process_lastid
+        ')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT id,last_id,last_running
+        FROM process_lastid
+        ')
+ 5 APPPATH\Models\lastid.php(32): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Libraries\merge_id.php(14): App\Models\lastid->stat_id()
+ 7 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 8 APPPATH\Controllers\insert_controller.php(20): App\Libraries\merge_id->unique_id_post()
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:49:07 --> Call to undefined method App\Models\running_log::running_log
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\insert_controller.php(21): CodeIgniter\Model->__call('running_log', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:49:42 --> Call to undefined method App\Models\running_log::running_log
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\insert_controller.php(21): CodeIgniter\Model->__call('running_log', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:50:11 --> Call to undefined method App\Models\running_log::running_log
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\insert_controller.php(21): CodeIgniter\Model->__call('running_log', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:50:11 --> Call to undefined method App\Models\running_log::running_log
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\insert_controller.php(21): CodeIgniter\Model->__call('running_log', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:51:15 --> Call to undefined method App\Models\running_log::running_log
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\insert_controller.php(21): CodeIgniter\Model->__call('running_log', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:51:27 --> Call to undefined method App\Models\running_log::running_log
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\insert_controller.php(21): CodeIgniter\Model->__call('running_log', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:53:39 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:54:18 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:55:32 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:57:56 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:58:38 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:59:31 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:02:40 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:15 --> array_merge(): Argument #2 must be of type array, stdClass given
+in APPPATH\Libraries\merge_id.php on line 62.
+ 1 APPPATH\Libraries\merge_id.php(62): array_merge([...], Object(stdClass))
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:29 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:31 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:33 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:34 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:35 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:36 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:37 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:38 --> array_merge(): Argument #2 must be of type array, stdClass given
+in APPPATH\Libraries\merge_id.php on line 62.
+ 1 APPPATH\Libraries\merge_id.php(62): array_merge([...], Object(stdClass))
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:43 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:46 --> array_merge(): Argument #2 must be of type array, stdClass given
+in APPPATH\Libraries\merge_id.php on line 62.
+ 1 APPPATH\Libraries\merge_id.php(62): array_merge([...], Object(stdClass))
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:50 --> array_merge(): Argument #2 must be of type array, stdClass given
+in APPPATH\Libraries\merge_id.php on line 62.
+ 1 APPPATH\Libraries\merge_id.php(62): array_merge([...], Object(stdClass))
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:52 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:57 --> array_merge(): Argument #2 must be of type array, stdClass given
+in APPPATH\Libraries\merge_id.php on line 62.
+ 1 APPPATH\Libraries\merge_id.php(62): array_merge([...], Object(stdClass))
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:04:59 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\merge_id.php on line 23.
+ 1 APPPATH\Libraries\merge_id.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\merge_id.php', 23)
+ 2 APPPATH\Libraries\merge_id.php(42): App\Libraries\merge_id->merge()
+ 3 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:05:30 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\check_dup.php on line 17.
+ 1 APPPATH\Libraries\check_dup.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\check_dup.php', 17)
+ 2 APPPATH\Models\insert_update_model.php(18): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(24): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:06:25 --> foreach() argument must be of type array|object, null given
+in APPPATH\Libraries\check_dup.php on line 17.
+ 1 APPPATH\Libraries\check_dup.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Libraries\\check_dup.php', 17)
+ 2 APPPATH\Models\insert_update_model.php(18): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(24): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 11:08:22 --> array_merge(): Argument #2 must be of type array, stdClass given
+in APPPATH\Libraries\merge_id.php on line 65.
+ 1 APPPATH\Libraries\merge_id.php(65): array_merge([...], Object(stdClass))
+ 2 APPPATH\Controllers\insert_controller.php(29): App\Libraries\merge_id->unique_id_post()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 20:53:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(797): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\insert_controller.php(26): CodeIgniter\Model->__call('unique_id_post', [])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:32:40 --> Cannot declare class App\Libraries\check_dup, because the name is already in use
+in APPPATH\Libraries\check_dup_monthly.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-31 21:34:43 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:35:03 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:40:00 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:40:56 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:41:48 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:45:08 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:45:59 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:48:19 --> Class "App\Libraries\check_dup_monthly" not found
+in APPPATH\Models\insert_update_model.php on line 44.
+ 1 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:55:32 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(46): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:56:35 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 21:58:23 --> Call to undefined method App\Models\database_monthly::monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\check_dup_monthly.php(12): CodeIgniter\Model->__call('monthly', [])
+ 2 APPPATH\Models\insert_update_model.php(45): App\Libraries\check_dup_monthly->dup_monthly()
+ 3 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:01:00 --> Undefined array key "month"
+in APPPATH\Models\insert_update_model.php on line 49.
+ 1 APPPATH\Models\insert_update_model.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "month"', 'APPPATH\\Models\\insert_update_model.php', 49)
+ 2 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:02:06 --> Undefined array key "month"
+in APPPATH\Models\insert_update_model.php on line 49.
+ 1 APPPATH\Models\insert_update_model.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "month"', 'APPPATH\\Models\\insert_update_model.php', 49)
+ 2 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:03:19 --> Undefined array key "month"
+in APPPATH\Models\insert_update_model.php on line 52.
+ 1 APPPATH\Models\insert_update_model.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "month"', 'APPPATH\\Models\\insert_update_model.php', 52)
+ 2 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:04:47 --> Undefined array key "week"
+in APPPATH\Models\insert_update_model.php on line 21.
+ 1 APPPATH\Models\insert_update_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "week"', 'APPPATH\\Models\\insert_update_model.php', 21)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:05:33 --> Undefined array key "month"
+in APPPATH\Models\insert_update_model.php on line 52.
+ 1 APPPATH\Models\insert_update_model.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "month"', 'APPPATH\\Models\\insert_update_model.php', 52)
+ 2 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:06:07 --> Undefined array key "month"
+in APPPATH\Models\insert_update_model.php on line 50.
+ 1 APPPATH\Models\insert_update_model.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "month"', 'APPPATH\\Models\\insert_update_model.php', 50)
+ 2 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:06:48 --> Undefined array key "week"
+in APPPATH\Models\insert_update_model.php on line 21.
+ 1 APPPATH\Models\insert_update_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "week"', 'APPPATH\\Models\\insert_update_model.php', 21)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:07:15 --> Undefined array key "week"
+in APPPATH\Models\insert_update_model.php on line 21.
+ 1 APPPATH\Models\insert_update_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "week"', 'APPPATH\\Models\\insert_update_model.php', 21)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:07:48 --> Undefined array key "week"
+in APPPATH\Models\insert_update_model.php on line 21.
+ 1 APPPATH\Models\insert_update_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "week"', 'APPPATH\\Models\\insert_update_model.php', 21)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:08:58 --> Undefined array key "week"
+in APPPATH\Models\insert_update_model.php on line 22.
+ 1 APPPATH\Models\insert_update_model.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "week"', 'APPPATH\\Models\\insert_update_model.php', 22)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 22:09:22 --> Call to undefined method App\Models\database63_model::check_value_monthly
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Models\insert_update_model.php(55): CodeIgniter\Model->__call('check_value_monthly', [...])
+ 2 APPPATH\Controllers\insert_controller.php(16): App\Models\insert_update_model->insert_monthly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:04:25 --> Undefined array key "infliencer_id"
+in APPPATH\Libraries\check_dup.php on line 55.
+ 1 APPPATH\Libraries\check_dup.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "infliencer_id"', 'APPPATH\\Libraries\\check_dup.php', 55)
+ 2 APPPATH\Libraries\check_dup.php(38): App\Libraries\check_dup->getGroupBy_Weekly([...])
+ 3 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 4 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:07:14 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:07:52 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:08:53 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:08:55 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:09:15 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:09:18 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:09:19 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:09:19 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:09:19 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:09:20 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:09:20 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:11:47 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:12:35 --> Undefined array key "influencer_id"
+in APPPATH\Models\insert_update_model.php on line 23.
+ 1 APPPATH\Models\insert_update_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer_id"', 'APPPATH\\Models\\insert_update_model.php', 23)
+ 2 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:17:16 --> Undefined array key "influencer"
+in APPPATH\Libraries\check_dup.php on line 20.
+ 1 APPPATH\Libraries\check_dup.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "influencer"', 'APPPATH\\Libraries\\check_dup.php', 20)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:17:36 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:17:56 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:17:58 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:18:05 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:18:16 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:18:22 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:19:15 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:20:42 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:21:02 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:21:32 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 35.
+ 1 APPPATH\Libraries\check_dup.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 35)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:24:20 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 35.
+ 1 APPPATH\Libraries\check_dup.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 35)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:30:25 --> Attempt to read property "id_post" on array
+in APPPATH\Libraries\check_dup.php on line 30.
+ 1 APPPATH\Libraries\check_dup.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_post" on array', 'APPPATH\\Libraries\\check_dup.php', 30)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:30:53 --> Attempt to read property "rawdata" on array
+in APPPATH\Libraries\check_dup.php on line 30.
+ 1 APPPATH\Libraries\check_dup.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "rawdata" on array', 'APPPATH\\Libraries\\check_dup.php', 30)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:31:09 --> Attempt to read property "rawdata" on array
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "rawdata" on array', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:31:20 --> Attempt to read property "id_post" on array
+in APPPATH\Libraries\check_dup.php on line 32.
+ 1 APPPATH\Libraries\check_dup.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_post" on array', 'APPPATH\\Libraries\\check_dup.php', 32)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:32:54 --> Undefined property: stdClass::$influencer_id
+in APPPATH\Libraries\check_dup.php on line 31.
+ 1 APPPATH\Libraries\check_dup.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$influencer_id', 'APPPATH\\Libraries\\check_dup.php', 31)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:33:54 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:34:10 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:37:07 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:37:46 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:38:24 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:38:55 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:39:14 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:39:15 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:39:15 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:39:15 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:41:12 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:41:25 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:41:37 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:41:51 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:43:36 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:43:54 --> foreach() argument must be of type array|object, int given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:44:01 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:44:13 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:46:30 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 33.
+ 1 APPPATH\Libraries\check_dup.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 33)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:48:18 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 34.
+ 1 APPPATH\Libraries\check_dup.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 34)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:52:51 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 34.
+ 1 APPPATH\Libraries\check_dup.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 34)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 23:57:06 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\check_dup.php on line 38.
+ 1 APPPATH\Libraries\check_dup.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Libraries\\check_dup.php', 38)
+ 2 APPPATH\Models\insert_update_model.php(17): App\Libraries\check_dup->dup()
+ 3 APPPATH\Controllers\insert_controller.php(15): App\Models\insert_update_model->insert_weekly()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

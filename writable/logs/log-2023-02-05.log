@@ -1,0 +1,131 @@
+ERROR - 2023-02-05 22:53:29 --> mysqli_sql_exception: Server shutdown in progress in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influenc...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influenc...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influenc...')
+#3 C:\xampp\htdocs\intern\app\Models\select_insert_update_unique_post.php(15): CodeIgniter\Database\BaseConnection->query('SELECT influenc...')
+#4 C:\xampp\htdocs\intern\app\Libraries\merge_id.php(60): App\Models\select_insert_update_unique_post->select_influenecr_json('437952', 'tiktok')
+#5 C:\xampp\htdocs\intern\app\Controllers\Home.php(28): App\Libraries\merge_id->merge(Array)
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-05 22:53:29 --> Server shutdown in progress
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT influencer_id
+        FROM post_unique
+        where influencer_id = 437952  ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT influencer_id
+        FROM post_unique
+        where influencer_id = 437952  ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT influencer_id
+        FROM post_unique
+        where influencer_id = 437952  ')
+ 4 APPPATH\Models\select_insert_update_unique_post.php(15): CodeIgniter\Database\BaseConnection->query('SELECT influencer_id
+        FROM post_unique
+        where influencer_id = 437952  ')
+ 5 APPPATH\Libraries\merge_id.php(60): App\Models\select_insert_update_unique_post->select_influenecr_json('437952', 'tiktok')
+ 6 APPPATH\Controllers\Home.php(28): App\Libraries\merge_id->merge([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 22:54:05 --> Undefined index: data_account
+in APPPATH\Controllers\Home.php on line 30.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: data_account', 'APPPATH\\Controllers\\Home.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 22:54:50 --> Undefined index: data_account
+in APPPATH\Controllers\Home.php on line 30.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: data_account', 'APPPATH\\Controllers\\Home.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 23:07:52 --> Undefined index: data_account
+in APPPATH\Controllers\Home.php on line 31.
+ 1 APPPATH\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: data_account', 'APPPATH\\Controllers\\Home.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 23:22:37 --> Undefined index: data_account
+in APPPATH\Controllers\Home.php on line 30.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: data_account', 'APPPATH\\Controllers\\Home.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-05 23:54:48 --> mysqli_sql_exception: Unknown column 'duplicate' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE dayly \r\n...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE dayly \r\n...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE dayly \r\n...')
+#3 C:\xampp\htdocs\intern\app\Models\insert_update_dayly.php(73): CodeIgniter\Database\BaseConnection->query('UPDATE dayly \r\n...')
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_dayly.php(41): App\Models\insert_update_dayly->update_total_unique_post_dayly('2022', '12', '7', 'twitter', '20', '20', 5, 10)
+#5 C:\xampp\htdocs\intern\app\Libraries\dayly.php(28): App\Models\insert_update_dayly->select_dayly('2022', '12', '7', 'twitter', 5, 10, 0, 0)
+#6 C:\xampp\htdocs\intern\app\Controllers\Home.php(52): App\Libraries\dayly->dayly(Array)
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-05 23:54:48 --> Unknown column 'duplicate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE dayly 
+                                                         SET total_post=30,  unique_post = 25,duplicate= 0.16666666666667
+                                                         WHERE day = 7 AND month =12 AND year= 2022 AND network = \'twitter\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE dayly 
+                                                         SET total_post=30,  unique_post = 25,duplicate= 0.16666666666667
+                                                         WHERE day = 7 AND month =12 AND year= 2022 AND network = \'twitter\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE dayly 
+                                                         SET total_post=30,  unique_post = 25,duplicate= 0.16666666666667
+                                                         WHERE day = 7 AND month =12 AND year= 2022 AND network = \'twitter\'')
+ 4 APPPATH\Models\insert_update_dayly.php(73): CodeIgniter\Database\BaseConnection->query('UPDATE dayly 
+                                                         SET total_post=30,  unique_post = 25,duplicate= 0.16666666666667
+                                                         WHERE day = 7 AND month =12 AND year= 2022 AND network = \'twitter\'')
+ 5 APPPATH\Models\insert_update_dayly.php(41): App\Models\insert_update_dayly->update_total_unique_post_dayly('2022', '12', '7', 'twitter', '20', '20', 5, 10)
+ 6 APPPATH\Libraries\dayly.php(28): App\Models\insert_update_dayly->select_dayly('2022', '12', '7', 'twitter', 5, 10, 0, 0)
+ 7 APPPATH\Controllers\Home.php(52): App\Libraries\dayly->dayly([...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-05 23:55:06 --> mysqli_sql_exception: Unknown column 'duplicate' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE dayly \r\n...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE dayly \r\n...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE dayly \r\n...')
+#3 C:\xampp\htdocs\intern\app\Models\insert_update_dayly.php(73): CodeIgniter\Database\BaseConnection->query('UPDATE dayly \r\n...')
+#4 C:\xampp\htdocs\intern\app\Models\insert_update_dayly.php(41): App\Models\insert_update_dayly->update_total_unique_post_dayly('2022', '12', '7', 'twitter', '20', '20', 0, 20)
+#5 C:\xampp\htdocs\intern\app\Libraries\dayly.php(28): App\Models\insert_update_dayly->select_dayly('2022', '12', '7', 'twitter', 0, 20, 0, 0)
+#6 C:\xampp\htdocs\intern\app\Controllers\Home.php(52): App\Libraries\dayly->dayly(Array)
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-05 23:55:06 --> Unknown column 'duplicate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE dayly 
+                                                         SET total_post=40,  unique_post = 20,duplicate= 0.5
+                                                         WHERE day = 7 AND month =12 AND year= 2022 AND network = \'twitter\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE dayly 
+                                                         SET total_post=40,  unique_post = 20,duplicate= 0.5
+                                                         WHERE day = 7 AND month =12 AND year= 2022 AND network = \'twitter\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE dayly 
+                                                         SET total_post=40,  unique_post = 20,duplicate= 0.5
+                                                         WHERE day = 7 AND month =12 AND year= 2022 AND network = \'twitter\'')
+ 4 APPPATH\Models\insert_update_dayly.php(73): CodeIgniter\Database\BaseConnection->query('UPDATE dayly 
+                                                         SET total_post=40,  unique_post = 20,duplicate= 0.5
+                                                         WHERE day = 7 AND month =12 AND year= 2022 AND network = \'twitter\'')
+ 5 APPPATH\Models\insert_update_dayly.php(41): App\Models\insert_update_dayly->update_total_unique_post_dayly('2022', '12', '7', 'twitter', '20', '20', 0, 20)
+ 6 APPPATH\Libraries\dayly.php(28): App\Models\insert_update_dayly->select_dayly('2022', '12', '7', 'twitter', 0, 20, 0, 0)
+ 7 APPPATH\Controllers\Home.php(52): App\Libraries\dayly->dayly([...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

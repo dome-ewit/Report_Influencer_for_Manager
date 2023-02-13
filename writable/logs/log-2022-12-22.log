@@ -1,0 +1,247 @@
+CRITICAL - 2022-12-22 21:56:19 --> Class 'App\Models\db63' not found
+in APPPATH\Controllers\Test_controller.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 21:59:33 --> Class 'App\Models\db63' not found
+in APPPATH\Controllers\Test_controller.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 22:00:29 --> database63 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(154): CodeIgniter\Database\Config::connect('database63')
+ 2 APPPATH\Controllers\Test_controller.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 22:01:42 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 22:01:56 --> database63 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(154): CodeIgniter\Database\Config::connect('database63')
+ 2 APPPATH\Controllers\Test_controller.php(11): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 22:08:32 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 22:09:01 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 22:09:04 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 22:09:20 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 22:11:12 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:39:43 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Test_controller.php(12): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:40:10 --> Undefined variable: txtKeywords
+in APPPATH\Models\db63.php on line 20.
+ 1 APPPATH\Models\db63.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: txtKeywords', 'APPPATH\\Models\\db63.php', 20, [...])
+ 2 APPPATH\Controllers\Test_controller.php(12): App\Models\db63->query63()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:40:30 --> Invalid file: view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view', [], true)
+ 3 APPPATH\Controllers\Test_controller.php(14): view('view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:42:01 --> Undefined variable: results
+in APPPATH\Views\welcome_message.php on line 3.
+ 1 APPPATH\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\welcome_message.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(14): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:42:27 --> Undefined variable: results63
+in APPPATH\Views\welcome_message.php on line 3.
+ 1 APPPATH\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results63', 'APPPATH\\Views\\welcome_message.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(14): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:43:05 --> Undefined variable: results63
+in APPPATH\Views\welcome_message.php on line 3.
+ 1 APPPATH\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results63', 'APPPATH\\Views\\welcome_message.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(14): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:43:47 --> Undefined variable: results
+in APPPATH\Views\welcome_message.php on line 3.
+ 1 APPPATH\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\welcome_message.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(14): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:46:11 --> Undefined variable: results
+in APPPATH\Views\welcome_message.php on line 2.
+ 1 APPPATH\Views\welcome_message.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\welcome_message.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(15): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:47:15 --> Array to string conversion
+in APPPATH\Views\welcome_message.php on line 2.
+ 1 APPPATH\Views\welcome_message.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\welcome_message.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(15): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:48:33 --> Undefined variable: results63
+in APPPATH\Views\welcome_message.php on line 2.
+ 1 APPPATH\Views\welcome_message.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results63', 'APPPATH\\Views\\welcome_message.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(15): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:49:39 --> Undefined variable: results
+in APPPATH\Views\welcome_message.php on line 2.
+ 1 APPPATH\Views\welcome_message.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\welcome_message.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(15): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:49:56 --> Array to string conversion
+in APPPATH\Views\welcome_message.php on line 2.
+ 1 APPPATH\Views\welcome_message.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\welcome_message.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Test_controller.php(15): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-22 23:56:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY network
+        LIMIT 0,4' at line 5 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,...')
+#4 C:\xampp\htdocs\intern\app\Models\db63.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\Test_controller.php(12): App\Models\db63->query63()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-22 23:56:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY network
+        LIMIT 0,4' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT network,create_date
+        ,create_date ,count(distinct influencer_id) AS Users,sum(post_total) AS Post_Test
+		FROM influencer_stat_post_recent 
+		ORDER BY create_date DESC
+		GROUP BY network
+        LIMIT 0,4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT network,create_date
+        ,create_date ,count(distinct influencer_id) AS Users,sum(post_total) AS Post_Test
+		FROM influencer_stat_post_recent 
+		ORDER BY create_date DESC
+		GROUP BY network
+        LIMIT 0,4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT network,create_date
+        ,create_date ,count(distinct influencer_id) AS Users,sum(post_total) AS Post_Test
+		FROM influencer_stat_post_recent 
+		ORDER BY create_date DESC
+		GROUP BY network
+        LIMIT 0,4')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT network,create_date
+        ,create_date ,count(distinct influencer_id) AS Users,sum(post_total) AS Post_Test
+		FROM influencer_stat_post_recent 
+		ORDER BY create_date DESC
+		GROUP BY network
+        LIMIT 0,4')
+ 5 APPPATH\Models\db63.php(17): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Test_controller.php(12): App\Models\db63->query63()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

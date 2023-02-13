@@ -1,0 +1,145 @@
+CRITICAL - 2023-01-17 02:13:38 --> Undefined variable: id_post
+in APPPATH\Libraries\test_count.php on line 24.
+ 1 APPPATH\Libraries\test_count.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post', 'APPPATH\\Libraries\\test_count.php', 24, [...])
+ 2 APPPATH\Controllers\Test_controller.php(19): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 02:14:05 --> Undefined variable: id_post
+in APPPATH\Libraries\test_count.php on line 24.
+ 1 APPPATH\Libraries\test_count.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post', 'APPPATH\\Libraries\\test_count.php', 24, [...])
+ 2 APPPATH\Controllers\Test_controller.php(19): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 02:14:32 --> Undefined variable: id_post
+in APPPATH\Libraries\test_count.php on line 24.
+ 1 APPPATH\Libraries\test_count.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post', 'APPPATH\\Libraries\\test_count.php', 24, [...])
+ 2 APPPATH\Controllers\Test_controller.php(19): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 02:14:48 --> Undefined variable: id_post
+in APPPATH\Libraries\test_count.php on line 24.
+ 1 APPPATH\Libraries\test_count.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post', 'APPPATH\\Libraries\\test_count.php', 24, [...])
+ 2 APPPATH\Controllers\Test_controller.php(19): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 03:28:47 --> Call to a member function get() on array
+in APPPATH\Controllers\Test_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 03:30:09 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Test_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 03:30:46 --> Call to a member function get() on array
+in APPPATH\Controllers\Test_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 03:31:36 --> Call to a member function getGet() on array
+in APPPATH\Controllers\Test_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 03:31:53 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH\Controllers\Test_controller.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 03:31:58 --> Call to a member function getGet() on array
+in APPPATH\Controllers\Test_controller.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 04:09:09 --> Undefined variable: id_post_unique
+in APPPATH\Libraries\test_count.php on line 27.
+ 1 APPPATH\Libraries\test_count.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post_unique', 'APPPATH\\Libraries\\test_count.php', 27, [...])
+ 2 APPPATH\Controllers\Test_controller.php(19): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 04:09:20 --> Undefined variable: id_post_unique
+in APPPATH\Libraries\test_count.php on line 27.
+ 1 APPPATH\Libraries\test_count.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post_unique', 'APPPATH\\Libraries\\test_count.php', 27, [...])
+ 2 APPPATH\Controllers\Test_controller.php(19): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 04:10:53 --> Undefined variable: id_post_count
+in APPPATH\Libraries\test_count.php on line 28.
+ 1 APPPATH\Libraries\test_count.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post_count', 'APPPATH\\Libraries\\test_count.php', 28, [...])
+ 2 APPPATH\Controllers\Test_controller.php(19): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 21:00:53 --> Declaration of App\Models\db63::insert() should be compatible with CodeIgniter\Model::insert($data = NULL, bool $returnID = true)
+in APPPATH\Models\db63.php on line 28.
+ 1 APPPATH\Models\db63.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of App\\Models\\db63::insert() should be compatible with CodeIgniter\\Model::insert($data = NULL, bool $returnID = true)', 'APPPATH\\Models\\db63.php', 28, [...])
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once('APPPATH\\Models\\db63.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\db63.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\db63')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\db63')
+ 6 APPPATH\Controllers\Test_controller.php(14): spl_autoload_call('App\\Models\\db63')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 21:08:45 --> Undefined variable: something
+in APPPATH\Controllers\Test_controller.php on line 29.
+ 1 APPPATH\Controllers\Test_controller.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: something', 'APPPATH\\Controllers\\Test_controller.php', 29, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 21:09:11 --> Undefined variable: something
+in APPPATH\Controllers\Test_controller.php on line 30.
+ 1 APPPATH\Controllers\Test_controller.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: something', 'APPPATH\\Controllers\\Test_controller.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 21:09:13 --> Undefined variable: something
+in APPPATH\Controllers\Test_controller.php on line 30.
+ 1 APPPATH\Controllers\Test_controller.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: something', 'APPPATH\\Controllers\\Test_controller.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:35:35 --> Declaration of App\Models\db63::insert() should be compatible with CodeIgniter\Model::insert($data = NULL, bool $returnID = true)
+in APPPATH\Models\db63.php on line 29.
+ 1 APPPATH\Models\db63.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of App\\Models\\db63::insert() should be compatible with CodeIgniter\\Model::insert($data = NULL, bool $returnID = true)', 'APPPATH\\Models\\db63.php', 29, [...])
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once('APPPATH\\Models\\db63.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\db63.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\db63')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\db63')
+ 6 APPPATH\Controllers\Test_controller.php(14): spl_autoload_call('App\\Models\\db63')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:28:42 --> Undefined variable: id_post
+in APPPATH\Libraries\test_count.php on line 23.
+ 1 APPPATH\Libraries\test_count.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_post', 'APPPATH\\Libraries\\test_count.php', 23, [...])
+ 2 APPPATH\Controllers\Test_controller.php(19): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

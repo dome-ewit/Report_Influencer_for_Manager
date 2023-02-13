@@ -1,0 +1,139 @@
+CRITICAL - 2023-01-15 22:42:59 --> Call to undefined method App\Models\db63::query_63
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\test_count.php(11): CodeIgniter\Model->__call('query_63', [])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 22:43:29 --> Call to undefined method App\Models\db63::query_63
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\test_count.php(11): CodeIgniter\Model->__call('query_63', [])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 22:45:34 --> Call to undefined method App\Models\db63::query_63
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Libraries\test_count.php(11): CodeIgniter\Model->__call('query_63', [])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:10:39 --> Undefined variable: test_results
+in APPPATH\Libraries\test_count.php on line 23.
+ 1 APPPATH\Libraries\test_count.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_results', 'APPPATH\\Libraries\\test_count.php', 23, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:15:22 --> Undefined variable: test_results
+in APPPATH\Libraries\test_count.php on line 23.
+ 1 APPPATH\Libraries\test_count.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_results', 'APPPATH\\Libraries\\test_count.php', 23, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:16:27 --> Undefined variable: test_results
+in APPPATH\Libraries\test_count.php on line 23.
+ 1 APPPATH\Libraries\test_count.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_results', 'APPPATH\\Libraries\\test_count.php', 23, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:23:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Test_controller.php on line 18.
+ 1 APPPATH\Controllers\Test_controller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Test_controller.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:25:02 --> Undefined variable: test_results
+in APPPATH\Libraries\test_count.php on line 24.
+ 1 APPPATH\Libraries\test_count.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: test_results', 'APPPATH\\Libraries\\test_count.php', 24, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:25:21 --> Call to a member function getResultArray() on array
+in APPPATH\Libraries\test_count.php on line 24.
+ 1 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:27:04 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\intern\system\Model.php on line 801 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 556.
+ 1 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Libraries\test_count.php(12): CodeIgniter\Model->__call('query', [])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:27:40 --> Undefined variable: database_63
+in APPPATH\Libraries\test_count.php on line 16.
+ 1 APPPATH\Libraries\test_count.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: database_63', 'APPPATH\\Libraries\\test_count.php', 16, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:33:43 --> Undefined index: rawdata
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: rawdata', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:39:14 --> json_decode() expects parameter 2 to be bool, array given
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 2 to be bool, array given', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Libraries\test_count.php(18): json_decode('[1552617166411014144, 1530354666097508353, 1530201941615050753, 1529483392080744451, 1529425943869071361, 1528622278962860032, 1528190051695218689, 1526427147493330944, 1521781010442391552, 1521710334280880128, 1519704174241644546, 1518054485389885441, 1517403064478871552, 1516772039927152642, 1516664617791287301, 1516352313581260804, 1516351829663449093, 1516275451014316033, 1515327498417946625, 1513920974621908992]', [...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:39:25 --> Illegal string offset 'create_date'
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 APPPATH\Libraries\test_count.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'create_date\'', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:40:00 --> json_decode() expects parameter 2 to be bool, array given
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 2 to be bool, array given', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Libraries\test_count.php(18): json_decode('[1552617166411014144, 1530354666097508353, 1530201941615050753, 1529483392080744451, 1529425943869071361, 1528622278962860032, 1528190051695218689, 1526427147493330944, 1521781010442391552, 1521710334280880128, 1519704174241644546, 1518054485389885441, 1517403064478871552, 1516772039927152642, 1516664617791287301, 1516352313581260804, 1516351829663449093, 1516275451014316033, 1515327498417946625, 1513920974621908992]', [...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:40:15 --> json_decode() expects parameter 2 to be bool, array given
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 2 to be bool, array given', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Libraries\test_count.php(18): json_decode('[1552617166411014144, 1530354666097508353, 1530201941615050753, 1529483392080744451, 1529425943869071361, 1528622278962860032, 1528190051695218689, 1526427147493330944, 1521781010442391552, 1521710334280880128, 1519704174241644546, 1518054485389885441, 1517403064478871552, 1516772039927152642, 1516664617791287301, 1516352313581260804, 1516351829663449093, 1516275451014316033, 1515327498417946625, 1513920974621908992]', [...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 23:40:29 --> json_decode() expects parameter 2 to be bool, array given
+in APPPATH\Libraries\test_count.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 2 to be bool, array given', 'APPPATH\\Libraries\\test_count.php', 18, [...])
+ 2 APPPATH\Libraries\test_count.php(18): json_decode('[1552617166411014144, 1530354666097508353, 1530201941615050753, 1529483392080744451, 1529425943869071361, 1528622278962860032, 1528190051695218689, 1526427147493330944, 1521781010442391552, 1521710334280880128, 1519704174241644546, 1518054485389885441, 1517403064478871552, 1516772039927152642, 1516664617791287301, 1516352313581260804, 1516351829663449093, 1516275451014316033, 1515327498417946625, 1513920974621908992]', [...])
+ 3 APPPATH\Controllers\Test_controller.php(17): App\Libraries\test_count->test()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Test_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

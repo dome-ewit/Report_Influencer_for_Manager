@@ -1,0 +1,187 @@
+ERROR - 2023-01-27 01:32:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sum(total_post), sum(unique_post)) VALUES ('50', '2022', 'twitter', '40', '40')' at line 1 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-27 01:32:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sum(total_post), sum(unique_post)) VALUES ('50', '2022', 'twitter', '40', '40')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `weekly` (`week`, `year`, `network`, sum(total_post), sum(unique_post)) VALUES (\'50\', \'2022\', \'twitter\', \'40\', \'40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `weekly` (`week`, `year`, `network`, sum(total_post), sum(unique_post)) VALUES (\'50\', \'2022\', \'twitter\', \'40\', \'40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `weekly` (`week`, `year`, `network`, sum(total_post), sum(unique_post)) VALUES (\'50\', \'2022\', \'twitter\', \'40\', \'40\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weekly` (`week`, `year`, `network`, sum(total_post), sum(unique_post)) VALUES (:week:, :year:, :network:, :sum(total_post):, :sum(unique_post):)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 01:34:40 --> Too few arguments to function App\Models\database63_model::sum_value(), 0 passed in C:\xampp\htdocs\intern\app\Controllers\insert_controller.php on line 16 and exactly 1 expected
+in APPPATH\Models\database63_model.php on line 38.
+ 1 APPPATH\Controllers\insert_controller.php(16): App\Models\database63_model->sum_value()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 01:35:03 --> Too few arguments to function App\Models\database63_model::sum_value(), 0 passed in C:\xampp\htdocs\intern\app\Controllers\insert_controller.php on line 16 and exactly 1 expected
+in APPPATH\Models\database63_model.php on line 38.
+ 1 APPPATH\Controllers\insert_controller.php(16): App\Models\database63_model->sum_value()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 01:37:14 --> Undefined variable: network
+in APPPATH\Models\database63_model.php on line 44.
+ 1 APPPATH\Models\database63_model.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: network', 'APPPATH\\Models\\database63_model.php', 44, [...])
+ 2 APPPATH\Controllers\insert_controller.php(16): App\Models\database63_model->sum_value()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-27 01:44:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'network = 'instagram' ,network = 'twitter',network = 'tiktok'
+        GROUP ...' at line 4 in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT week,yea...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT week,yea...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT week,yea...')
+#3 C:\xampp\htdocs\intern\system\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT week,yea...')
+#4 C:\xampp\htdocs\intern\app\Models\database63_model.php(41): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(16): App\Models\database63_model->sum_value()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#8 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-27 01:44:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'network = 'instagram' ,network = 'twitter',network = 'tiktok'
+        GROUP ...' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT week,year,network,sum(total_post)as total_post,
+        sum(unique_post) as unique_post
+        FROM test_dup
+        WHERE network = \'facebook\',network = \'instagram\' ,network = \'twitter\',network = \'tiktok\'
+        GROUP BY week,year', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT week,year,network,sum(total_post)as total_post,
+        sum(unique_post) as unique_post
+        FROM test_dup
+        WHERE network = \'facebook\',network = \'instagram\' ,network = \'twitter\',network = \'tiktok\'
+        GROUP BY week,year')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT week,year,network,sum(total_post)as total_post,
+        sum(unique_post) as unique_post
+        FROM test_dup
+        WHERE network = \'facebook\',network = \'instagram\' ,network = \'twitter\',network = \'tiktok\'
+        GROUP BY week,year')
+ 4 SYSTEMPATH\Model.php(801): CodeIgniter\Database\BaseConnection->query('SELECT week,year,network,sum(total_post)as total_post,
+        sum(unique_post) as unique_post
+        FROM test_dup
+        WHERE network = \'facebook\',network = \'instagram\' ,network = \'twitter\',network = \'tiktok\'
+        GROUP BY week,year')
+ 5 APPPATH\Models\database63_model.php(41): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\insert_controller.php(16): App\Models\database63_model->sum_value()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 02:21:07 --> Class 'App\Controllers\merge_id' not found
+in APPPATH\Controllers\insert_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 02:37:29 --> Call to undefined function App\Libraries\sum()
+in APPPATH\Libraries\check_dup.php on line 27.
+ 1 APPPATH\Controllers\insert_controller.php(20): App\Libraries\check_dup->dup()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 02:51:56 --> Class 'App\Controllers\merge_id' not found
+in APPPATH\Controllers\insert_controller.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-27 03:14:51 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `weekly`...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `weekly`...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `weekly`...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `weekly`...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(30): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-27 03:14:51 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `weekly` SET `id` = \'3616719\', `week` = \'51\', `year` = \'2022\', `influencer_id` = \'325964\', `network` = \'facebook\', `total_post` = 2, `unique_post` = 2
+WHERE `week` = \'51\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `weekly` SET `id` = \'3616719\', `week` = \'51\', `year` = \'2022\', `influencer_id` = \'325964\', `network` = \'facebook\', `total_post` = 2, `unique_post` = 2
+WHERE `week` = \'51\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `weekly` SET `id` = \'3616719\', `week` = \'51\', `year` = \'2022\', `influencer_id` = \'325964\', `network` = \'facebook\', `total_post` = 2, `unique_post` = 2
+WHERE `week` = \'51\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `weekly` SET `id` = :id:, `week` = :week:, `year` = :year:, `influencer_id` = :influencer_id:, `network` = :network:, `total_post` = :total_post:, `unique_post` = :unique_post:
+WHERE `week` = :week.1:', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(30): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-27 03:15:14 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-27 03:15:14 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `weekly` (`id`, `week`, `year`, `influencer_id`, `network`, `total_post`, `unique_post`) VALUES (\'3616719\', \'51\', \'2022\', \'325964\', \'facebook\', 2, 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `weekly` (`id`, `week`, `year`, `influencer_id`, `network`, `total_post`, `unique_post`) VALUES (\'3616719\', \'51\', \'2022\', \'325964\', \'facebook\', 2, 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `weekly` (`id`, `week`, `year`, `influencer_id`, `network`, `total_post`, `unique_post`) VALUES (\'3616719\', \'51\', \'2022\', \'325964\', \'facebook\', 2, 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weekly` (`id`, `week`, `year`, `influencer_id`, `network`, `total_post`, `unique_post`) VALUES (:id:, :week:, :year:, :influencer_id:, :network:, :total_post:, :unique_post:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-27 03:15:15 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\intern\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `we...', 0)
+#1 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `we...')
+#2 C:\xampp\htdocs\intern\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `we...')
+#3 C:\xampp\htdocs\intern\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `we...', Array, false)
+#4 C:\xampp\htdocs\intern\app\Controllers\insert_controller.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\intern\system\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+#6 C:\xampp\htdocs\intern\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+#7 C:\xampp\htdocs\intern\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\intern\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-27 03:15:15 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `weekly` (`id`, `week`, `year`, `influencer_id`, `network`, `total_post`, `unique_post`) VALUES (\'3616719\', \'51\', \'2022\', \'325964\', \'facebook\', 2, 2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `weekly` (`id`, `week`, `year`, `influencer_id`, `network`, `total_post`, `unique_post`) VALUES (\'3616719\', \'51\', \'2022\', \'325964\', \'facebook\', 2, 2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `weekly` (`id`, `week`, `year`, `influencer_id`, `network`, `total_post`, `unique_post`) VALUES (\'3616719\', \'51\', \'2022\', \'325964\', \'facebook\', 2, 2)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `weekly` (`id`, `week`, `year`, `influencer_id`, `network`, `total_post`, `unique_post`) VALUES (:id:, :week:, :year:, :influencer_id:, :network:, :total_post:, :unique_post:)', [...], false)
+ 5 APPPATH\Controllers\insert_controller.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 03:17:04 --> Undefined index: influencer_id
+in APPPATH\Controllers\insert_controller.php on line 25.
+ 1 APPPATH\Controllers\insert_controller.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: influencer_id', 'APPPATH\\Controllers\\insert_controller.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\insert_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\insert_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
