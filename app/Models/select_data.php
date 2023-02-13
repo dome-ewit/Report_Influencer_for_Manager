@@ -13,7 +13,7 @@ class select_data extends Model
     {
         $db = new select_data();
         $last = new last_id();
-        $last_id = $last->select_last_id();
+        $last_id = $last->get_last_id();
         $count_data = $db->query("SELECT count(id) countID
         FROM influencer_stat_post_recent_intern
         WHERE id > $last_id ");
@@ -24,7 +24,7 @@ class select_data extends Model
     {
         $db = new select_data();
         $last_id_data = new last_id();
-        $last_id = $last_id_data->select_last_id();
+        $last_id = $last_id_data->get_last_id();
 
         $database_63 = $db->query("SELECT id,influencer_id,network,create_date,
         rawdata,follower,week(create_date) AS week,month(create_date) AS month,year(create_date) AS year,day(create_date) AS day

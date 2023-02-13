@@ -10,22 +10,22 @@ class insert_update_dayly extends Model
     protected $DBGroup = 'database_local';
     protected $table = 'influencer';
 
-    public function select_insert_update_dayly($data_update_insert)
+    public function get_insert_update_dayly($data_update_insert)
     {
 
         $db = new insert_update_dayly();
-        $select_data_table_dayly = $db->query("SELECT day,month,year,network,total_post,unique_post
+        $get_data_table_dayly = $db->query("SELECT day,month,year,network,total_post,unique_post
         FROM dayly
         WHERE day = '{$data_update_insert['day']}' AND month = '{$data_update_insert['month']}' AND year='{$data_update_insert['year']}' AND network = '{$data_update_insert['network']}'");
 
-        $select_data_dayly = $select_data_table_dayly->getResultArray();
-        if ($select_data_dayly == null) {
+        $get_data_dayly = $get_data_table_dayly->getResultArray();
+        if ($get_data_dayly == null) {
             $dayly = new insert_update_dayly();
             $dayly->insert_total_unique_post_dayly($data_update_insert['year'], $data_update_insert['month'], $data_update_insert['day'], $data_update_insert['network'], $data_update_insert['count_total_post']);
         } else {
             $dayly = new insert_update_dayly();
 
-            $dayly->update_total_unique_post_dayly($data_update_insert['year'], $data_update_insert['month'], $data_update_insert['day'], $data_update_insert['network'], $select_data_dayly[0]['total_post'], $select_data_dayly[0]['unique_post'], $data_update_insert['count_unique_post'], $data_update_insert['count_total_post']);
+            $dayly->update_total_unique_post_dayly($data_update_insert['year'], $data_update_insert['month'], $data_update_insert['day'], $data_update_insert['network'], $get_data_dayly[0]['total_post'], $get_data_dayly[0]['unique_post'], $data_update_insert['count_unique_post'], $data_update_insert['count_total_post']);
         }
     }
 

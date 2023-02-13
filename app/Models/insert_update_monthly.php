@@ -8,20 +8,20 @@ class insert_update_monthly extends Model
     protected $DBGroup = 'database_local';
     protected $table = 'influencer';
 
-    public function select_insert_update_monthly($data_update_insert)
+    public function get_insert_update_monthly($data_update_insert)
     {
         $db = new insert_update_monthly();
-        $select_data_table_monthly = $db->query("SELECT month,year,network,total_post,unique_post
+        $get_data_table_monthly = $db->query("SELECT month,year,network,total_post,unique_post
                                                 FROM monthly
                                                 WHERE month = '{$data_update_insert['month']}' AND year='{$data_update_insert['year']}' AND network = '{$data_update_insert['network']}'");
 
-        $select_data_monthly = $select_data_table_monthly->getResultArray();
-        if ($select_data_monthly == null) {
+        $get_data_monthly = $get_data_table_monthly->getResultArray();
+        if ($get_data_monthly == null) {
             $monthly = new insert_update_monthly();
             $monthly->insert_total_unique_post_monthly($data_update_insert['year'], $data_update_insert['month'], $data_update_insert['network'], $data_update_insert['count_total_post']);
         } else {
             $monthly = new insert_update_monthly();
-            $monthly->update_total_unique_post_monthly($data_update_insert['year'], $data_update_insert['month'], $data_update_insert['network'], $select_data_monthly[0]['total_post'], $select_data_monthly[0]['unique_post'], $data_update_insert['count_unique_post'], $data_update_insert['count_total_post']);
+            $monthly->update_total_unique_post_monthly($data_update_insert['year'], $data_update_insert['month'], $data_update_insert['network'], $get_data_monthly[0]['total_post'], $get_data_monthly[0]['unique_post'], $data_update_insert['count_unique_post'], $data_update_insert['count_total_post']);
         }
 
     }

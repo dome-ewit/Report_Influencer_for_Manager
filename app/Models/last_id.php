@@ -8,7 +8,7 @@ class last_id extends Model
     protected $DBGroup = 'database_local';
     protected $table = 'influencer';
 
-    public function select_last_id()
+    public function get_last_id()
     {
         $db = new last_id();
         $last_id = $db->query("SELECT last_id FROM stat_running_log");

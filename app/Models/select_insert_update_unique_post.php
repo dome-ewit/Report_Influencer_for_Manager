@@ -11,11 +11,11 @@ class select_insert_update_unique_post extends Model
     public function get_id_post_database($influencer_id, $network)
     {
         $db = new select_insert_update_unique_post();
-        $query_select_data = $db->query("SELECT influencer_id,{$network} as network
+        $query_get_data = $db->query("SELECT influencer_id,{$network} as network
         FROM post_unique
         where influencer_id = $influencer_id  ");
 
-        $results_data_id_post = $query_select_data->getResultArray();
+        $results_data_id_post = $query_get_data->getResultArray();
         return $results_data_id_post;
     }
 
